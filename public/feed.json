@@ -1,0 +1,1332 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-22T23:48:19.213073+08:00",
+  "newestPublishedAt": "2026-10-22T00:00:00+08:00",
+  "status": "ok",
+  "sources": [
+    {
+      "id": "365-wash",
+      "status": "ok",
+      "count": 7,
+      "failedArticles": 0
+    },
+    {
+      "id": "365-food",
+      "status": "ok",
+      "count": 15,
+      "failedArticles": 0
+    },
+    {
+      "id": "365-industry",
+      "status": "ok",
+      "count": 15,
+      "failedArticles": 0
+    },
+    {
+      "id": "cips",
+      "status": "ok",
+      "count": 60,
+      "failedArticles": 0
+    },
+    {
+      "id": "cns-finance",
+      "status": "ok",
+      "count": 0,
+      "failedArticles": 0
+    },
+    {
+      "id": "cns-society",
+      "status": "ok",
+      "count": 0,
+      "failedArticles": 0
+    }
+  ],
+  "items": [
+    {
+      "id": "033c3a8a8717491bf3b3",
+      "title": "聚焦IPC 2026｜CIPS携手国际头部展会，共话全球宠业未来",
+      "url": "https://www.cipscom.com/ShowNews/25720.htm",
+      "publishedAt": "2026-10-22T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
+    {
+      "id": "d85bed3c0c84f894ca05",
+      "title": "世界标准，中国主场！第八届“金指奖”国际裁判天团与十二国及地区代表队阵容全揭晓",
+      "url": "https://www.cipscom.com/ShowNews/25719.htm",
+      "publishedAt": "2026-10-21T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
+    {
+      "id": "43d9b559cee161853078",
+      "title": "27岁爱心博主不幸离世，曾多次救助流浪猫狗",
+      "url": "https://www.chongwu365.com/news/2610889539.html",
+      "publishedAt": "2026-10-20T20:02:00+08:00",
+      "source": "宠物365",
+      "sourceId": "365-industry",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "媒体资讯",
+      "summary": ""
+    },
+    {
+      "id": "172117dec7afda203029",
+      "title": "小壳Cature小白牙口腔护理系列为宠物提供更科学的口腔健康解决方案",
+      "url": "https://www.chongwu365.com/news/2610966537.html",
+      "publishedAt": "2026-10-20T08:19:00+08:00",
+      "source": "宠物365",
+      "sourceId": "365-wash",
+      "categories": [
+        "宠物洗美"
+      ],
+      "kind": "媒体资讯",
+      "summary": ""
+    },
+    {
+      "id": "e48eb93b27c9a70291c8",
+      "title": "以时尚赋能它经济｜第三届懂宠帝北京宠物时装周成功举办，商贸与创意双向迸发",
+      "url": "https://www.chongwu365.com/news/2610588928.html",
+      "publishedAt": "2026-10-20T07:05:00+08:00",
+      "source": "宠物365",
+      "sourceId": "365-industry",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "媒体资讯",
+      "summary": ""
+    },
+    {
+      "id": "8c2e27b682bf91fdbfa5",
+      "title": "《2026天猫新宠物观察》：多元萌宠出圈，214种宠物点亮养宠新生态",
+      "url": "https://www.chongwu365.com/news/2610697805.html",
+      "publishedAt": "2026-10-19T13:17:00+08:00",
+      "source": "宠物365",
+      "sourceId": "365-industry",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "媒体资讯",
+      "summary": ""
+    },
+    {
+      "id": "8fce493c059b44b26bfb",
+      "title": "养宠新风下的专业守护者——宠物健康护理员",
+      "url": "https://www.chongwu365.com/news/2610889909.html",
+      "publishedAt": "2026-10-19T10:22:00+08:00",
+      "source": "宠物365",
+      "sourceId": "365-industry",
+      "categories": [
+        "宠物洗美",
+        "行业动态"
+      ],
+      "kind": "媒体资讯",
+      "summary": ""
+    },
+    {
+      "id": "72289aee9eaf3b605ac1",
+      "title": "全阵容官宣 | 第二届CIPS国际宠业大会",
+      "url": "https://www.cipscom.com/ShowNews/25713.htm",
+      "publishedAt": "2026-10-19T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
+    {
+      "id": "52377e7b26d167f8cbed",
+      "title": "无与伦比，趣宠津门 ——2026天津第五届趣宠会火热开展",
+      "url": "https://www.chongwu365.com/news/2610875636.html",
+      "publishedAt": "2026-10-18T12:58:00+08:00",
+      "source": "宠物365",
+      "sourceId": "365-industry",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "媒体资讯",
+      "summary": ""
+    },
+    {
+      "id": "1aaac3f2d1eaaf885efa",
+      "title": "温州市编制全国首部宠物食品领域出口美国合规指引",
+      "url": "https://www.chongwu365.com/news/2610978939.html",
+      "publishedAt": "2026-10-16T12:51:00+08:00",
+      "source": "宠物365",
+      "sourceId": "365-industry",
+      "categories": [
+        "营养鲜食",
+        "行业动态"
+      ],
+      "kind": "媒体资讯",
+      "summary": ""
+    },
+    {
+      "id": "194ba5cf28969c531519",
+      "title": "小壳Cature深耕科学养护，构建专业宠物全周期健康护理体系",
+      "url": "https://www.chongwu365.com/news/2610877536.html",
+      "publishedAt": "2026-10-14T10:13:00+08:00",
+      "source": "宠物365",
+      "sourceId": "365-food",
+      "categories": [
+        "宠物洗美",
+        "营养鲜食"
+      ],
+      "kind": "媒体资讯",
+      "summary": ""
+    },
+    {
+      "id": "ab4ed49699c47f457e3c",
+      "title": "倒计时1个月 | 三十载共进，再续宠业新篇",
+      "url": "https://www.cipscom.com/ShowNews/25710.htm",
+      "publishedAt": "2026-10-14T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
+    {
+      "id": "691f7a315aa2c5d3551c",
+      "title": "萌宠逐风悦动辽沈——沈阳市首届宠物马拉松火热开赛",
+      "url": "https://www.chongwu365.com/news/2610779906.html",
+      "publishedAt": "2026-10-12T14:51:00+08:00",
+      "source": "宠物365",
+      "sourceId": "365-industry",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "媒体资讯",
+      "summary": ""
+    },
+    {
+      "id": "7f34c2bb7a04dcf1e7e9",
+      "title": "五国嘉宾天团全员亮相 | SRBA第六届国际小宠锦标赛暨年度颁奖盛典即将启幕",
+      "url": "https://www.cipscom.com/ShowNews/25709.htm",
+      "publishedAt": "2026-10-12T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
+    {
+      "id": "167de97032075ae83806",
+      "title": "2026上海网球大师赛打造宠物友好新体验",
+      "url": "https://www.chongwu365.com/news/2610996615.html",
+      "publishedAt": "2026-10-08T12:30:00+08:00",
+      "source": "宠物365",
+      "sourceId": "365-industry",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "媒体资讯",
+      "summary": ""
+    },
+    {
+      "id": "1f1e750bd782327cccda",
+      "title": "宠物上门喂养服务爆单，国庆假期订单增超300%",
+      "url": "https://www.chongwu365.com/news/2610855836.html",
+      "publishedAt": "2026-10-07T12:10:00+08:00",
+      "source": "宠物365",
+      "sourceId": "365-industry",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "媒体资讯",
+      "summary": ""
+    },
+    {
+      "id": "3df329206497274aee6f",
+      "title": "国产高鲜肉猫粮怎么选？弗列加特全系列选购指南",
+      "url": "https://www.chongwu365.com/news/2610599535.html",
+      "publishedAt": "2026-10-05T09:37:00+08:00",
+      "source": "宠物365",
+      "sourceId": "365-food",
+      "categories": [
+        "营养鲜食"
+      ],
+      "kind": "媒体资讯",
+      "summary": ""
+    },
+    {
+      "id": "d00175f2a44e34805f0e",
+      "title": "成都温江成立宠物经济产业联盟",
+      "url": "https://www.chongwu365.com/news/2609966535.html",
+      "publishedAt": "2026-09-30T10:08:00+08:00",
+      "source": "宠物365",
+      "sourceId": "365-industry",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "媒体资讯",
+      "summary": ""
+    },
+    {
+      "id": "9e77ed21343124447eac",
+      "title": "同心聚力，共抗狂犬病｜第20个世界狂犬病日科普：暴露分级处置，防范动物致伤",
+      "url": "https://www.chongwu365.com/news/2609698725.html",
+      "publishedAt": "2026-09-28T11:31:00+08:00",
+      "source": "宠物365",
+      "sourceId": "365-industry",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "媒体资讯",
+      "summary": ""
+    },
+    {
+      "id": "ff818c95545abb6147bb",
+      "title": "五国权威，跨越山海，首聚广州！",
+      "url": "https://www.cipscom.com/ShowNews/25703.htm",
+      "publishedAt": "2026-09-28T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
+    {
+      "id": "837ba6c88c69d963f779",
+      "title": "宠物也要仪式感，中秋宠物月饼火出圈",
+      "url": "https://www.chongwu365.com/news/2609899837.html",
+      "publishedAt": "2026-09-25T09:13:00+08:00",
+      "source": "宠物365",
+      "sourceId": "365-industry",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "媒体资讯",
+      "summary": ""
+    },
+    {
+      "id": "0e9a3813fd013e780703",
+      "title": "宠物AI翻译进入多模态阶段，声音+情绪+肢体行为多维解析",
+      "url": "https://www.chongwu365.com/news/2609975836.html",
+      "publishedAt": "2026-09-24T10:09:00+08:00",
+      "source": "宠物365",
+      "sourceId": "365-industry",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "媒体资讯",
+      "summary": ""
+    },
+    {
+      "id": "0c1e79b3e16c0f6a9c22",
+      "title": "合围科技（深圳）有限公司完成B轮融资，加速构建宠物全渠道生态平台",
+      "url": "https://www.chongwu365.com/news/2609698939.html",
+      "publishedAt": "2026-09-23T11:33:00+08:00",
+      "source": "宠物365",
+      "sourceId": "365-industry",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "媒体资讯",
+      "summary": ""
+    },
+    {
+      "id": "91f3defa8f7591327bbb",
+      "title": "中秋国庆长假在即，宠物寄养的正确打开方式",
+      "url": "https://www.chongwu365.com/news/2609997626.html",
+      "publishedAt": "2026-09-23T08:32:00+08:00",
+      "source": "宠物365",
+      "sourceId": "365-industry",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "媒体资讯",
+      "summary": ""
+    },
+    {
+      "id": "19ba41ff21de4471dbcf",
+      "title": "三生新元，万物共荣 | 2026长城宠物展展商巡礼③",
+      "url": "https://www.cipscom.com/ShowNews/25699.htm",
+      "publishedAt": "2026-09-23T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
+    {
+      "id": "687c523f12dbdc9ed8a5",
+      "title": "艾尔宠粮均衡营养系列老年心脏呵护粮全新上市，科学配比赋能老年犬猫高品质晚年",
+      "url": "https://www.chongwu365.com/news/2609796739.html",
+      "publishedAt": "2026-09-20T11:55:00+08:00",
+      "source": "宠物365",
+      "sourceId": "365-food",
+      "categories": [
+        "营养鲜食"
+      ],
+      "kind": "媒体资讯",
+      "summary": ""
+    },
+    {
+      "id": "11bafe896e50d2c990e8",
+      "title": "第二届CIPS国际宠业大会 | 嘉宾阵容揭晓（第三期）",
+      "url": "https://www.cipscom.com/ShowNews/25695.htm",
+      "publishedAt": "2026-09-17T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
+    {
+      "id": "3c0aca8d0244279d9f04",
+      "title": "全议程公布 | 第八届“PANGOL佩宝儿”杯CGGC长城世界宠物美容大会日程出炉！",
+      "url": "https://www.cipscom.com/ShowNews/25694.htm",
+      "publishedAt": "2026-09-16T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "宠物洗美",
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
+    {
+      "id": "c991fb1013377ab7cd95",
+      "title": "中牧股份旗下宠物食品品牌“搭爪”荣膺“2026中国制造·消费者信赖品牌”",
+      "url": "https://www.chongwu365.com/news/2609875919.html",
+      "publishedAt": "2026-09-15T13:08:00+08:00",
+      "source": "宠物365",
+      "sourceId": "365-food",
+      "categories": [
+        "营养鲜食"
+      ],
+      "kind": "媒体资讯",
+      "summary": ""
+    },
+    {
+      "id": "c8750464342b906e6514",
+      "title": "三生新元，万物共荣 | 2026长城宠物展展商巡礼 ②",
+      "url": "https://www.cipscom.com/ShowNews/25693.htm",
+      "publishedAt": "2026-09-15T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
+    {
+      "id": "b4b3c14d616164a47e27",
+      "title": "草本宠物洗护新选择：梵希娅品牌解析及主要产品系列",
+      "url": "https://www.chongwu365.com/news/2609878709.html",
+      "publishedAt": "2026-09-11T15:20:00+08:00",
+      "source": "宠物365",
+      "sourceId": "365-wash",
+      "categories": [
+        "宠物洗美"
+      ],
+      "kind": "媒体资讯",
+      "summary": ""
+    },
+    {
+      "id": "51d37b4c55b239f4b55c",
+      "title": "倒计时7天 | 2026“长城杯”创新奖报名通道即将关闭！",
+      "url": "https://www.cipscom.com/ShowNews/25689.htm",
+      "publishedAt": "2026-09-09T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
+    {
+      "id": "94f223047053d4a3ca76",
+      "title": "国内首个《宠物友好化妆品》团体标准(T/GDCA082—2026)正式实施",
+      "url": "https://www.chongwu365.com/news/2609586519.html",
+      "publishedAt": "2026-09-08T18:02:00+08:00",
+      "source": "宠物365",
+      "sourceId": "365-wash",
+      "categories": [
+        "宠物洗美"
+      ],
+      "kind": "媒体资讯",
+      "summary": ""
+    },
+    {
+      "id": "dfb233af6e81b43f5e5c",
+      "title": "三生新元，万物共荣 | 2026长城宠物展展商巡礼 ①",
+      "url": "https://www.cipscom.com/ShowNews/25686.htm",
+      "publishedAt": "2026-09-08T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
+    {
+      "id": "9eb2bd5fe317c3dd3062",
+      "title": "玛氏皇家宠物食品天津工厂启动新一轮扩建升级",
+      "url": "https://www.chongwu365.com/news/2609559736.html",
+      "publishedAt": "2026-09-06T09:02:00+08:00",
+      "source": "宠物365",
+      "sourceId": "365-food",
+      "categories": [
+        "营养鲜食"
+      ],
+      "kind": "媒体资讯",
+      "summary": ""
+    },
+    {
+      "id": "c6cfc5a49c22245bf9a8",
+      "title": "浙江海正中誉动物营养科技有限公司年产1.2万吨宠物处方粮项目落地椒江",
+      "url": "https://www.chongwu365.com/news/2609895538.html",
+      "publishedAt": "2026-09-04T09:20:00+08:00",
+      "source": "宠物365",
+      "sourceId": "365-food",
+      "categories": [
+        "营养鲜食"
+      ],
+      "kind": "媒体资讯",
+      "summary": ""
+    },
+    {
+      "id": "0a2e6031d7eb24233713",
+      "title": "CIPS × IPC 2026 | 与全球同行共话宠物行业新变化",
+      "url": "https://www.cipscom.com/ShowNews/25684.htm",
+      "publishedAt": "2026-09-04T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
+    {
+      "id": "137b128f8640a605d2b1",
+      "title": "投资超64亿泰铢！雀巢深化泰国宠物食品生产布局",
+      "url": "https://www.chongwu365.com/news/2609885629.html",
+      "publishedAt": "2026-09-03T16:18:00+08:00",
+      "source": "宠物365",
+      "sourceId": "365-food",
+      "categories": [
+        "营养鲜食"
+      ],
+      "kind": "媒体资讯",
+      "summary": ""
+    },
+    {
+      "id": "3ff305fa675a9ee6f055",
+      "title": "第四届「绿动掌印 宠爱地球」 | “绿色先锋”可持续月度集结③",
+      "url": "https://www.cipscom.com/ShowNews/25679.htm",
+      "publishedAt": "2026-09-02T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
+    {
+      "id": "960f422fe10c44f0b985",
+      "title": "CIPS宠物零售与服务国际产业大会拟定议程重磅发布",
+      "url": "https://www.cipscom.com/ShowNews/25677.htm",
+      "publishedAt": "2026-09-01T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
+    {
+      "id": "4b8593e2ba28c9403bf5",
+      "title": "重磅官宣丨长城展·SRBA 第六届国际小宠锦标赛报名正式开启",
+      "url": "https://www.cipscom.com/ShowNews/25676.htm",
+      "publishedAt": "2026-08-31T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
+    {
+      "id": "034ddad3314e76f63c82",
+      "title": "2026\"长城杯\"国际开放式景观大赛顶配裁判团全曝光！",
+      "url": "https://www.cipscom.com/ShowNews/25673.htm",
+      "publishedAt": "2026-08-27T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
+    {
+      "id": "e21cb9d6264b760148a2",
+      "title": "CIPS 2026重磅升级｜B2B一对一贸易对接服务+全球买家专属导览同步开放报名",
+      "url": "https://www.cipscom.com/ShowNews/25671.htm",
+      "publishedAt": "2026-08-25T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
+    {
+      "id": "75ad11a2f0d9f5fcde81",
+      "title": "CIPS 30周年同行者荣誉计划 | 致敬一路同行的你",
+      "url": "https://www.cipscom.com/ShowNews/25670.htm",
+      "publishedAt": "2026-08-25T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
+    {
+      "id": "d8aec7071416ad774f96",
+      "title": "懂猫咪的口味，也懂宠主的爱，珍致携两大主食罐新品系列亮相2026亚洲宠物展",
+      "url": "https://www.chongwu365.com/news/2608788738.html",
+      "publishedAt": "2026-08-24T20:19:00+08:00",
+      "source": "宠物365",
+      "sourceId": "365-food",
+      "categories": [
+        "营养鲜食"
+      ],
+      "kind": "媒体资讯",
+      "summary": ""
+    },
+    {
+      "id": "71863e6b91aa088015bb",
+      "title": "单品价格战失灵？宠物供应链的下一个决胜点在哪？",
+      "url": "https://www.cipscom.com/ShowNews/25669.htm",
+      "publishedAt": "2026-08-24T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
+    {
+      "id": "e4b8b8aeb02390968c8e",
+      "title": "宠物行业由量转质，精准营养如何穿越周期？皇家品牌发布会交出“营养、制造、生态”系统答卷",
+      "url": "https://www.chongwu365.com/news/2608675929.html",
+      "publishedAt": "2026-08-21T16:32:00+08:00",
+      "source": "宠物365",
+      "sourceId": "365-food",
+      "categories": [
+        "营养鲜食"
+      ],
+      "kind": "媒体资讯",
+      "summary": ""
+    },
+    {
+      "id": "b3dc4c92b00f9b4d6c65",
+      "title": "亚宠展网易严选官宣科学战略新升级，斩获年度畅销食品品牌大奖",
+      "url": "https://www.chongwu365.com/news/2608575818.html",
+      "publishedAt": "2026-08-20T17:37:00+08:00",
+      "source": "宠物365",
+      "sourceId": "365-food",
+      "categories": [
+        "营养鲜食"
+      ],
+      "kind": "媒体资讯",
+      "summary": ""
+    },
+    {
+      "id": "996f7d21ce0d71514528",
+      "title": "ADM携科学营养创新成果亮相2026亚洲宠物展",
+      "url": "https://www.chongwu365.com/news/2608865837.html",
+      "publishedAt": "2026-08-19T20:11:00+08:00",
+      "source": "宠物365",
+      "sourceId": "365-food",
+      "categories": [
+        "营养鲜食"
+      ],
+      "kind": "媒体资讯",
+      "summary": ""
+    },
+    {
+      "id": "3c135ee7154227d0ccc4",
+      "title": "PNNZ品泽惊艳亮相亚宠展 新西兰银蕨品质闪耀申城",
+      "url": "https://www.chongwu365.com/news/2608589909.html",
+      "publishedAt": "2026-08-19T18:17:00+08:00",
+      "source": "宠物365",
+      "sourceId": "365-food",
+      "categories": [
+        "营养鲜食"
+      ],
+      "kind": "媒体资讯",
+      "summary": ""
+    },
+    {
+      "id": "c2ebed17c3fe96bc26ba",
+      "title": "它帮TaBond：防粘底猫砂新技术，打造低尘净味养宠新体验",
+      "url": "https://www.chongwu365.com/news/2608687517.html",
+      "publishedAt": "2026-08-19T18:15:00+08:00",
+      "source": "宠物365",
+      "sourceId": "365-wash",
+      "categories": [
+        "宠物洗美"
+      ],
+      "kind": "媒体资讯",
+      "summary": ""
+    },
+    {
+      "id": "644605bf1c1184ae425e",
+      "title": "德国贝里家宠物食品中国工厂在威海综保区正式启用",
+      "url": "https://www.chongwu365.com/news/2608857925.html",
+      "publishedAt": "2026-08-18T10:29:00+08:00",
+      "source": "宠物365",
+      "sourceId": "365-food",
+      "categories": [
+        "营养鲜食"
+      ],
+      "kind": "媒体资讯",
+      "summary": ""
+    },
+    {
+      "id": "95427e4f0b474f382834",
+      "title": "Mojo魔球宠食品牌解析：深耕功能性宠食，践行「喂食即养护」",
+      "url": "https://www.chongwu365.com/news/2608678505.html",
+      "publishedAt": "2026-08-17T18:21:00+08:00",
+      "source": "宠物365",
+      "sourceId": "365-food",
+      "categories": [
+        "营养鲜食"
+      ],
+      "kind": "媒体资讯",
+      "summary": ""
+    },
+    {
+      "id": "0d817bafd5836a2b9056",
+      "title": "深耕宠物清洁护理四十余年 多美洁Tropiclean以专业实力守护全球宠物健康",
+      "url": "https://www.chongwu365.com/news/2608588725.html",
+      "publishedAt": "2026-08-17T17:16:00+08:00",
+      "source": "宠物365",
+      "sourceId": "365-wash",
+      "categories": [
+        "宠物洗美"
+      ],
+      "kind": "媒体资讯",
+      "summary": ""
+    },
+    {
+      "id": "deb49b3392a2602ce70c",
+      "title": "赛事前瞻 | 2026年“长城杯”世界金鱼锦标赛裁判阵容大揭秘！",
+      "url": "https://www.cipscom.com/ShowNews/25667.htm",
+      "publishedAt": "2026-08-17T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
+    {
+      "id": "e744106bd34cf2cb8e1f",
+      "title": "历届最强评审阵容官宣：把全球塔尖搬来了广州！",
+      "url": "https://www.cipscom.com/ShowNews/25664.htm",
+      "publishedAt": "2026-08-13T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
+    {
+      "id": "c99052bf59e2a45640de",
+      "title": "CIPS三湖慈鲷活体及周边展盛大启幕——11月广州不见不散！",
+      "url": "https://www.cipscom.com/ShowNews/25662.htm",
+      "publishedAt": "2026-08-12T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
+    {
+      "id": "1a1f2c8c768500545478",
+      "title": "IPC 2026首批参会名单公布！",
+      "url": "https://www.cipscom.com/ShowNews/25661.htm",
+      "publishedAt": "2026-08-11T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
+    {
+      "id": "8078f16d97c52e80d02f",
+      "title": "一缸一世界，一尾一春秋！“长城杯”世界孔雀鱼锦标赛报名开启！",
+      "url": "https://www.cipscom.com/ShowNews/25660.htm",
+      "publishedAt": "2026-08-10T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
+    {
+      "id": "33ea8eae513040fdc13e",
+      "title": "国际最高规格坐镇！EGA主席携副主席团确认执裁第八届“PANGOL佩宝儿”杯CGGC长城世界宠物美容大会",
+      "url": "https://www.cipscom.com/ShowNews/25657.htm",
+      "publishedAt": "2026-08-06T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "宠物洗美",
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
+    {
+      "id": "86eb814dd70a2e648de6",
+      "title": "倒计时100天 | 三十载同行，共赴新元",
+      "url": "https://www.cipscom.com/ShowNews/25652.htm",
+      "publishedAt": "2026-08-05T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
+    {
+      "id": "947c66d96c4cab0a062c",
+      "title": "“长城杯”创新奖评审阵容公布！",
+      "url": "https://www.cipscom.com/ShowNews/25647.htm",
+      "publishedAt": "2026-07-31T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
+    {
+      "id": "e7549019469ef06773f8",
+      "title": "全球十一国家队齐聚广州，历届最强国际宠美阵容来袭！",
+      "url": "https://www.cipscom.com/ShowNews/25646.htm",
+      "publishedAt": "2026-07-30T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
+    {
+      "id": "b6eb88172f2161e3cc00",
+      "title": "第二届CIPS国际宠业大会 | 嘉宾阵容揭晓（第二期）",
+      "url": "https://www.cipscom.com/ShowNews/25645.htm",
+      "publishedAt": "2026-07-29T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
+    {
+      "id": "4b2b08dd5b6b54b2ce44",
+      "title": "海外买家邀约挑战赛 | 第一阶段战报发布！",
+      "url": "https://www.cipscom.com/ShowNews/25639.htm",
+      "publishedAt": "2026-07-22T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
+    {
+      "id": "e40cc31f65b34b8ed6d5",
+      "title": "CIPS宠物零售与服务国际产业大会 | 重塑宠业全新生态格局",
+      "url": "https://www.cipscom.com/ShowNews/25636.htm",
+      "publishedAt": "2026-07-21T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
+    {
+      "id": "612f64eb77d489c86e13",
+      "title": "“新玩法” | 2026长城杯”赛事增设“艺人组”，传承金鱼培育技艺！",
+      "url": "https://www.cipscom.com/ShowNews/25632.htm",
+      "publishedAt": "2026-07-17T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
+    {
+      "id": "ace749c3907da75e3a8a",
+      "title": "万店赋能海外行 | 马来西亚×泰国双城告捷，中国宠物品牌东南亚深耕之旅圆满收官！",
+      "url": "https://www.cipscom.com/ShowNews/25629.htm",
+      "publishedAt": "2026-07-15T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
+    {
+      "id": "589779cc65b7df7b7094",
+      "title": "IPC 2026议题前瞻 | 欧洲市场、行业责任与全球合作",
+      "url": "https://www.cipscom.com/ShowNews/25626.htm",
+      "publishedAt": "2026-07-14T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
+    {
+      "id": "0dc9ab03a6a56b0838a7",
+      "title": "万店赋能海外行｜马来西亚站今日启幕，泰国站7月13日即将开启！",
+      "url": "https://www.cipscom.com/ShowNews/25623.htm",
+      "publishedAt": "2026-07-10T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
+    {
+      "id": "cd6300b4b63397a07e7d",
+      "title": "第二届CIPS国际宠业大会 | 首批嘉宾阵容揭晓",
+      "url": "https://www.cipscom.com/ShowNews/25614.htm",
+      "publishedAt": "2026-07-03T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
+    {
+      "id": "7a318ccb9545998aaad7",
+      "title": "第四届「绿动掌印 宠爱地球」 | “绿色先锋”可持续月度集结 ①",
+      "url": "https://www.cipscom.com/ShowNews/25613.htm",
+      "publishedAt": "2026-07-02T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
+    {
+      "id": "9c1aae77ae3b824c2eb3",
+      "title": "蓝森然Blue Forest荣获「2026澳大利亚宠物科技创新大奖」",
+      "url": "https://www.chongwu365.com/news/2606889628.html",
+      "publishedAt": "2026-06-25T10:18:00+08:00",
+      "source": "宠物365",
+      "sourceId": "365-wash",
+      "categories": [
+        "宠物洗美"
+      ],
+      "kind": "媒体资讯",
+      "summary": ""
+    },
+    {
+      "id": "88fd39997e79eaed312f",
+      "title": "万店赋能中国行 | 合肥、深圳双城同期告捷",
+      "url": "https://www.cipscom.com/ShowNews/25609.htm",
+      "publishedAt": "2026-06-24T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
+    {
+      "id": "19510e0ab2c6571f9005",
+      "title": "重磅发布全新分组细则！2026“长城杯”世界金鱼锦标赛与您相约广州",
+      "url": "https://www.cipscom.com/ShowNews/25594.htm",
+      "publishedAt": "2026-06-22T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
+    {
+      "id": "906d6022d16feb839047",
+      "title": "重磅官宣｜2026 CIPS 宠物零售与服务国际产业大会定档",
+      "url": "https://www.cipscom.com/ShowNews/25592.htm",
+      "publishedAt": "2026-06-18T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
+    {
+      "id": "a4d9de855e968c544267",
+      "title": "活动预告 | 第五届全球宠物电商大会 · 突破内卷，寻找第二增长曲线",
+      "url": "https://www.cipscom.com/ShowNews/25587.htm",
+      "publishedAt": "2026-06-15T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
+    {
+      "id": "e64677bddbaa98184f18",
+      "title": "当出海风起，宠物品类的下一站在哪？",
+      "url": "https://www.cipscom.com/ShowNews/25586.htm",
+      "publishedAt": "2026-06-15T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
+    {
+      "id": "de53e1249b80bd784aca",
+      "title": "治愈再启程！长城宠物展×PFH城市合伙人计划，共建人宠友好新生态",
+      "url": "https://www.cipscom.com/ShowNews/25582.htm",
+      "publishedAt": "2026-06-10T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
+    {
+      "id": "420f314aaaef6ea4c2e9",
+      "title": "2026“长城杯”世界斗鱼锦标赛报名开启！",
+      "url": "https://www.cipscom.com/ShowNews/25573.htm",
+      "publishedAt": "2026-06-05T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
+    {
+      "id": "f23f667cdc3839367cfd",
+      "title": "创新生万象 | “长城杯”创新奖报名开启！",
+      "url": "https://www.cipscom.com/ShowNews/25565.htm",
+      "publishedAt": "2026-06-02T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
+    {
+      "id": "5c26267ffc2fe3155c6e",
+      "title": "当“天狗食月”登上屋顶：一块汉代瓦当，藏着古人最硬核的“护宠”宣言？",
+      "url": "https://www.cipscom.com/ShowNews/25564.htm",
+      "publishedAt": "2026-06-01T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
+    {
+      "id": "548ec69f944b7fd5e383",
+      "title": "三色青鳉，匠心笃行造极致风华 | 2025“长城杯”世界观背青鳉锦标赛冠军专访",
+      "url": "https://www.cipscom.com/ShowNews/25551.htm",
+      "publishedAt": "2026-05-29T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
+    {
+      "id": "8905965405459189dae7",
+      "title": "Interzoo 2026 现场 | 全球采购风向变化，中国宠物供应链如何作答？",
+      "url": "https://www.cipscom.com/ShowNews/25550.htm",
+      "publishedAt": "2026-05-28T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
+    {
+      "id": "698aa81399a0df06d3dd",
+      "title": "第二届CIPS国际宠业大会 | 共生共荣，共探宠业新未来",
+      "url": "https://www.cipscom.com/ShowNews/25548.htm",
+      "publishedAt": "2026-05-28T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
+    {
+      "id": "c77b2d18fc03dda6fcba",
+      "title": "万物共生 | 第四届「绿动掌印 宠爱地球」可持续发展主题活动，线上报名正式开启！",
+      "url": "https://www.cipscom.com/ShowNews/25546.htm",
+      "publishedAt": "2026-05-26T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
+    {
+      "id": "5872c19f9bd8249c60e1",
+      "title": "海外买家邀约挑战赛开启 | 住宿、新品展示与展位折扣等福利等您解锁！",
+      "url": "https://www.cipscom.com/ShowNews/25528.htm",
+      "publishedAt": "2026-05-25T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
+    {
+      "id": "78d6da83fd10af0ab0a1",
+      "title": "创新生万象 | 「NEWⁿ」新品展示区报名正式开启",
+      "url": "https://www.cipscom.com/ShowNews/25506.htm",
+      "publishedAt": "2026-05-19T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
+    {
+      "id": "c64b90b2842497ecc93e",
+      "title": "官宣 | CIPS正式成为IPC中国区官方合作伙伴，IPC2026报名开启！",
+      "url": "https://www.cipscom.com/ShowNews/25503.htm",
+      "publishedAt": "2026-05-15T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
+    {
+      "id": "ac3fbca60006c84b3938",
+      "title": "万店赋能中国行 | 山东站圆满落幕",
+      "url": "https://www.cipscom.com/ShowNews/25501.htm",
+      "publishedAt": "2026-05-14T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
+    {
+      "id": "0c742fe332cbb9a47743",
+      "title": "龙鳞兰寿，三十年匠心铸巅峰 | 2025“长城杯”世界金鱼锦标赛冠军专访",
+      "url": "https://www.cipscom.com/ShowNews/25496.htm",
+      "publishedAt": "2026-05-12T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
+    {
+      "id": "c4b35ead86e4e864f717",
+      "title": "万店赋能中国行 | 山东站即将开启！",
+      "url": "https://www.cipscom.com/ShowNews/25494.htm",
+      "publishedAt": "2026-05-11T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
+    {
+      "id": "8b1174af628b9faf6349",
+      "title": "官宣｜2026 “长城杯” 国际海洋景观大赛报名正式启动！",
+      "url": "https://www.cipscom.com/ShowNews/25490.htm",
+      "publishedAt": "2026-05-06T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
+    {
+      "id": "092338be77ae30fb6102",
+      "title": "倒计时200天 | 三生新元，共赴产业新一轮生长",
+      "url": "https://www.cipscom.com/ShowNews/25486.htm",
+      "publishedAt": "2026-04-27T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    }
+  ]
+}
