@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-23T12:55:34.221578+08:00",
-  "newestPublishedAt": "2026-10-22T00:00:00+08:00",
+  "checkedAt": "2026-10-24T01:11:59.358029+08:00",
+  "newestPublishedAt": "2026-10-23T00:00:00+08:00",
   "status": "ok",
   "sources": [
     {
@@ -42,6 +42,20 @@
     }
   ],
   "items": [
+    {
+      "id": "3a1e2e5956a8e112842b",
+      "title": "广东省锦鲤协会携名优锦鲤亮相2026长城宠物展！",
+      "url": "https://www.cipscom.com/ShowNews/25722.htm",
+      "publishedAt": "2026-10-23T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
     {
       "id": "033c3a8a8717491bf3b3",
       "title": "聚焦IPC 2026｜CIPS携手国际头部展会，共话全球宠业未来",
@@ -1305,20 +1319,6 @@
       "title": "官宣｜2026 “长城杯” 国际海洋景观大赛报名正式启动！",
       "url": "https://www.cipscom.com/ShowNews/25490.htm",
       "publishedAt": "2026-05-06T00:00:00+08:00",
-      "source": "CIPS 官网",
-      "sourceId": "cips",
-      "categories": [
-        "行业动态"
-      ],
-      "kind": "展会动态",
-      "summary": "",
-      "datePrecision": "day"
-    },
-    {
-      "id": "092338be77ae30fb6102",
-      "title": "倒计时200天 | 三生新元，共赴产业新一轮生长",
-      "url": "https://www.cipscom.com/ShowNews/25486.htm",
-      "publishedAt": "2026-04-27T00:00:00+08:00",
       "source": "CIPS 官网",
       "sourceId": "cips",
       "categories": [
