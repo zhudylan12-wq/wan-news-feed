@@ -1,26 +1,23 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-24T12:41:08.100966+08:00",
+  "checkedAt": "2026-10-24T23:59:41.839923+08:00",
   "newestPublishedAt": "2026-10-23T00:00:00+08:00",
-  "status": "ok",
+  "status": "partial",
   "sources": [
     {
       "id": "365-wash",
-      "status": "ok",
-      "count": 7,
-      "failedArticles": 0
+      "status": "error",
+      "detail": "HTTPError"
     },
     {
       "id": "365-food",
-      "status": "ok",
-      "count": 15,
-      "failedArticles": 0
+      "status": "error",
+      "detail": "HTTPError"
     },
     {
       "id": "365-industry",
-      "status": "ok",
-      "count": 15,
-      "failedArticles": 0
+      "status": "error",
+      "detail": "HTTPError"
     },
     {
       "id": "cips",
