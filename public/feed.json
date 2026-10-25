@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-25T12:46:28.158952+08:00",
-  "newestPublishedAt": "2026-10-23T00:00:00+08:00",
+  "checkedAt": "2026-10-26T00:26:33.253313+08:00",
+  "newestPublishedAt": "2026-10-25T16:15:00+08:00",
   "status": "ok",
   "sources": [
     {
@@ -42,6 +42,19 @@
     }
   ],
   "items": [
+    {
+      "id": "5dca90742d8f2fffa6cf",
+      "title": "科学选择宠物猫粮，守护毛孩子的每一段成长时光",
+      "url": "https://www.chongwu365.com/news/2610578625.html",
+      "publishedAt": "2026-10-25T16:15:00+08:00",
+      "source": "宠物365",
+      "sourceId": "365-food",
+      "categories": [
+        "营养鲜食"
+      ],
+      "kind": "媒体资讯",
+      "summary": ""
+    },
     {
       "id": "3a1e2e5956a8e112842b",
       "title": "广东省锦鲤协会携名优锦鲤亮相2026长城宠物展！",
