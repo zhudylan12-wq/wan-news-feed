@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-26T00:26:33.253313+08:00",
-  "newestPublishedAt": "2026-10-25T16:15:00+08:00",
+  "checkedAt": "2026-10-26T12:51:48.249220+08:00",
+  "newestPublishedAt": "2026-10-26T10:30:00+08:00",
   "status": "ok",
   "sources": [
     {
@@ -42,6 +42,20 @@
     }
   ],
   "items": [
+    {
+      "id": "cab4f59b1af3edf43eef",
+      "title": "上海首家汽车8S店开业 200台原厂改装宠物洗护车首批交付",
+      "url": "https://www.chongwu365.com/news/2610787609.html",
+      "publishedAt": "2026-10-26T10:30:00+08:00",
+      "source": "宠物365",
+      "sourceId": "365-industry",
+      "categories": [
+        "宠物洗美",
+        "行业动态"
+      ],
+      "kind": "媒体资讯",
+      "summary": ""
+    },
     {
       "id": "5dca90742d8f2fffa6cf",
       "title": "科学选择宠物猫粮，守护毛孩子的每一段成长时光",
