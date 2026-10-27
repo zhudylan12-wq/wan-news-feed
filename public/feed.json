@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-27T13:10:24.337170+08:00",
-  "newestPublishedAt": "2026-10-26T10:30:00+08:00",
+  "checkedAt": "2026-10-28T02:02:14.589383+08:00",
+  "newestPublishedAt": "2026-10-27T00:00:00+08:00",
   "status": "ok",
   "sources": [
     {
@@ -25,7 +25,7 @@
     {
       "id": "cips",
       "status": "ok",
-      "count": 60,
+      "count": 61,
       "failedArticles": 0
     },
     {
@@ -42,6 +42,20 @@
     }
   ],
   "items": [
+    {
+      "id": "336fb5d3fe9f39430dca",
+      "title": "第四届「绿动掌印 宠爱地球」 | “绿色先锋”全员集结，携手共续可持续新篇！",
+      "url": "https://www.cipscom.com/ShowNews/25723.htm",
+      "publishedAt": "2026-10-27T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
     {
       "id": "cab4f59b1af3edf43eef",
       "title": "上海首家汽车8S店开业 200台原厂改装宠物洗护车首批交付",
