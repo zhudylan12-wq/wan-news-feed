@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-28T13:46:46.922271+08:00",
-  "newestPublishedAt": "2026-10-27T00:00:00+08:00",
+  "checkedAt": "2026-10-29T02:21:59.357878+08:00",
+  "newestPublishedAt": "2026-10-28T15:18:00+08:00",
   "status": "ok",
   "sources": [
     {
@@ -42,6 +42,19 @@
     }
   ],
   "items": [
+    {
+      "id": "29ceae2aedf1fea7bf8c",
+      "title": "长沙国际车展12月9日启幕 首设宠物友好活动区",
+      "url": "https://www.chongwu365.com/news/2610769809.html",
+      "publishedAt": "2026-10-28T15:18:00+08:00",
+      "source": "宠物365",
+      "sourceId": "365-industry",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "媒体资讯",
+      "summary": ""
+    },
     {
       "id": "336fb5d3fe9f39430dca",
       "title": "第四届「绿动掌印 宠爱地球」 | “绿色先锋”全员集结，携手共续可持续新篇！",
