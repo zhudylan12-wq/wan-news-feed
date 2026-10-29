@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-29T02:21:59.357878+08:00",
-  "newestPublishedAt": "2026-10-28T15:18:00+08:00",
+  "checkedAt": "2026-10-29T13:52:12.461893+08:00",
+  "newestPublishedAt": "2026-10-29T09:51:00+08:00",
   "status": "ok",
   "sources": [
     {
@@ -42,6 +42,19 @@
     }
   ],
   "items": [
+    {
+      "id": "def0fb59d3cd54d2d6b2",
+      "title": "普安特与白云携手宠达成深度战略合作，构建携宠出行健康新生态",
+      "url": "https://www.chongwu365.com/news/2610975938.html",
+      "publishedAt": "2026-10-29T09:51:00+08:00",
+      "source": "宠物365",
+      "sourceId": "365-industry",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "媒体资讯",
+      "summary": ""
+    },
     {
       "id": "29ceae2aedf1fea7bf8c",
       "title": "长沙国际车展12月9日启幕 首设宠物友好活动区",
