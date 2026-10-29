@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-29T13:52:12.461893+08:00",
-  "newestPublishedAt": "2026-10-29T09:51:00+08:00",
+  "checkedAt": "2026-10-30T02:30:05.993632+08:00",
+  "newestPublishedAt": "2026-10-29T13:36:00+08:00",
   "status": "ok",
   "sources": [
     {
@@ -25,7 +25,7 @@
     {
       "id": "cips",
       "status": "ok",
-      "count": 61,
+      "count": 63,
       "failedArticles": 0
     },
     {
@@ -43,6 +43,19 @@
   ],
   "items": [
     {
+      "id": "e5f6abfff005b3d13d25",
+      "title": "以科学边界理解宠物克隆：复制基因，而非复制 \"它\"",
+      "url": "https://www.chongwu365.com/news/2610677615.html",
+      "publishedAt": "2026-10-29T13:36:00+08:00",
+      "source": "宠物365",
+      "sourceId": "365-industry",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "媒体资讯",
+      "summary": ""
+    },
+    {
       "id": "def0fb59d3cd54d2d6b2",
       "title": "普安特与白云携手宠达成深度战略合作，构建携宠出行健康新生态",
       "url": "https://www.chongwu365.com/news/2610975938.html",
@@ -54,6 +67,34 @@
       ],
       "kind": "媒体资讯",
       "summary": ""
+    },
+    {
+      "id": "466da76cbde0aa3e742c",
+      "title": "倒计时14天 | 同期会议报名与参会指引",
+      "url": "https://www.cipscom.com/ShowNews/25727.htm",
+      "publishedAt": "2026-10-29T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
+    {
+      "id": "613926415ff8705e9d89",
+      "title": "倒计时15天 | 第30届长城宠物展展位图抢先看",
+      "url": "https://www.cipscom.com/ShowNews/25725.htm",
+      "publishedAt": "2026-10-29T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
     },
     {
       "id": "29ceae2aedf1fea7bf8c",
