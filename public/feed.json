@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-01T14:11:05.883586+08:00",
-  "newestPublishedAt": "2026-10-29T13:36:00+08:00",
+  "checkedAt": "2026-11-02T01:56:42.809408+08:00",
+  "newestPublishedAt": "2026-11-01T17:45:25+08:00",
   "status": "ok",
   "sources": [
     {
@@ -25,7 +25,7 @@
     {
       "id": "cips",
       "status": "ok",
-      "count": 63,
+      "count": 62,
       "failedArticles": 0
     },
     {
@@ -37,11 +37,50 @@
     {
       "id": "cns-society",
       "status": "ok",
-      "count": 0,
+      "count": 1,
       "failedArticles": 0
     }
   ],
   "items": [
+    {
+      "id": "7255cd9a5b10748d553a",
+      "title": "南昌宠物中医渐兴 中兽医拓展诊疗场景",
+      "url": "https://www.chinanews.com.cn/sh/2026/11-01/10724383.shtml",
+      "publishedAt": "2026-11-01T17:45:25+08:00",
+      "source": "中国新闻网",
+      "sourceId": "cns-society",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "媒体资讯",
+      "summary": ""
+    },
+    {
+      "id": "6aeb5ebdae775a399bb2",
+      "title": "广深首个百亩原生态宠物公园开园，湾心萌宠嘉年华同步举办",
+      "url": "https://www.chongwu365.com/news/2611958835.html",
+      "publishedAt": "2026-11-01T15:11:00+08:00",
+      "source": "宠物365",
+      "sourceId": "365-industry",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "媒体资讯",
+      "summary": ""
+    },
+    {
+      "id": "22b8de7ac2d22502cb74",
+      "title": "美国饲料管理协会（AAFCO）更新猫粮钙磷标准，磷设上限、管控可溶性磷",
+      "url": "https://www.chongwu365.com/news/2611578809.html",
+      "publishedAt": "2026-11-01T13:35:00+08:00",
+      "source": "宠物365",
+      "sourceId": "365-food",
+      "categories": [
+        "营养鲜食"
+      ],
+      "kind": "媒体资讯",
+      "summary": ""
+    },
     {
       "id": "e5f6abfff005b3d13d25",
       "title": "以科学边界理解宠物克隆：复制基因，而非复制 \"它\"",
@@ -1413,20 +1452,6 @@
       "title": "万店赋能中国行 | 山东站即将开启！",
       "url": "https://www.cipscom.com/ShowNews/25494.htm",
       "publishedAt": "2026-05-11T00:00:00+08:00",
-      "source": "CIPS 官网",
-      "sourceId": "cips",
-      "categories": [
-        "行业动态"
-      ],
-      "kind": "展会动态",
-      "summary": "",
-      "datePrecision": "day"
-    },
-    {
-      "id": "8b1174af628b9faf6349",
-      "title": "官宣｜2026 “长城杯” 国际海洋景观大赛报名正式启动！",
-      "url": "https://www.cipscom.com/ShowNews/25490.htm",
-      "publishedAt": "2026-05-06T00:00:00+08:00",
       "source": "CIPS 官网",
       "sourceId": "cips",
       "categories": [
