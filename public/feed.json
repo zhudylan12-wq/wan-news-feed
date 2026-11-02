@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-02T14:11:49.073283+08:00",
-  "newestPublishedAt": "2026-11-01T17:45:25+08:00",
+  "checkedAt": "2026-11-03T05:43:35.953770+08:00",
+  "newestPublishedAt": "2026-11-02T21:07:00+08:00",
   "status": "ok",
   "sources": [
     {
@@ -25,7 +25,7 @@
     {
       "id": "cips",
       "status": "ok",
-      "count": 62,
+      "count": 63,
       "failedArticles": 0
     },
     {
@@ -42,6 +42,46 @@
     }
   ],
   "items": [
+    {
+      "id": "7f2fdd55eab328099fb8",
+      "title": "网红边牧“锄头”案和解，犬主人接受三十万赔偿金，将全部捐给宠物救助机构",
+      "url": "https://www.chongwu365.com/news/2611788508.html",
+      "publishedAt": "2026-11-02T21:07:00+08:00",
+      "source": "宠物365",
+      "sourceId": "365-industry",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "媒体资讯",
+      "summary": ""
+    },
+    {
+      "id": "4ed94a598670176ce65c",
+      "title": "厦门一“宠物友好”商场内顾客被狗咬伤 商场规定携犬需牵绳或佩戴嘴套",
+      "url": "https://www.chongwu365.com/news/2611869616.html",
+      "publishedAt": "2026-11-02T19:35:00+08:00",
+      "source": "宠物365",
+      "sourceId": "365-industry",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "媒体资讯",
+      "summary": ""
+    },
+    {
+      "id": "dbe34b38f289bcbce14f",
+      "title": "倒计时10天 | 第30届长城宠物展观展指南全览",
+      "url": "https://www.cipscom.com/ShowNews/25728.htm",
+      "publishedAt": "2026-11-02T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
     {
       "id": "7255cd9a5b10748d553a",
       "title": "南昌宠物中医渐兴 中兽医拓展诊疗场景",
