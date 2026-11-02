@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-02T01:56:42.809408+08:00",
+  "checkedAt": "2026-11-02T14:11:49.073283+08:00",
   "newestPublishedAt": "2026-11-01T17:45:25+08:00",
   "status": "ok",
   "sources": [
@@ -37,7 +37,7 @@
     {
       "id": "cns-society",
       "status": "ok",
-      "count": 1,
+      "count": 0,
       "failedArticles": 0
     }
   ],
