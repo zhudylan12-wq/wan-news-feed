@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-04T03:30:39.902084+08:00",
-  "newestPublishedAt": "2026-11-03T00:00:00+08:00",
+  "checkedAt": "2026-11-04T14:30:19.742659+08:00",
+  "newestPublishedAt": "2026-11-04T09:30:00+08:00",
   "status": "ok",
   "sources": [
     {
@@ -42,6 +42,20 @@
     }
   ],
   "items": [
+    {
+      "id": "b2c145598ea5fe73dff8",
+      "title": "宠物食品行业进入存量竞争期",
+      "url": "https://www.chongwu365.com/news/2611677615.html",
+      "publishedAt": "2026-11-04T09:30:00+08:00",
+      "source": "宠物365",
+      "sourceId": "365-industry",
+      "categories": [
+        "营养鲜食",
+        "行业动态"
+      ],
+      "kind": "媒体资讯",
+      "summary": ""
+    },
     {
       "id": "54eb045aa4b86cb22d38",
       "title": "全议程首发 | 第五届全球宠物电商大会，解锁“私域+出海”双重增长极",
