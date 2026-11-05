@@ -29,6 +29,25 @@ class CollectorTests(unittest.TestCase):
         data['staffData'] = []
         with self.assertRaises(collect.SourceError):
             collect.bilibili_detail(page(), source, 'BV19jnG6kEWV')
+        data['videoData']['staff'] = [{'mid': source['mid'], 'name': source['account']}]
+        self.assertTrue(collect.bilibili_detail(page(), source, 'BV19jnG6kEWV')['collaboration'])
+        data['videoData']['staff'][0]['mid'] = 1
+        with self.assertRaises(collect.SourceError):
+            collect.bilibili_detail(page(), source, 'BV19jnG6kEWV')
+
+    def test_atom_requires_root_and_entry_channel_id_and_timezone(self):
+        source = SOURCES[0]
+        xml = ('<feed xmlns="http://www.w3.org/2005/Atom" xmlns:yt="http://www.youtube.com/xml/schemas/2015">'
+               f'<yt:channelId>{source["channelId"]}</yt:channelId><entry><yt:videoId>WoeDaIg7Xf4</yt:videoId>'
+               f'<yt:channelId>{source["channelId"]}</yt:channelId><title>aespa Behind</title>'
+               '<published>2026-11-04T13:00:07+00:00</published></entry></feed>')
+        rows = collect.youtube_feed(xml, source)
+        self.assertEqual(rows['WoeDaIg7Xf4']['publishedAt'], '2026-11-04T21:00:07+08:00')
+        for invalid in [xml.replace(source['channelId'], 'wrong-channel', 1),
+                        xml.replace('2026-11-04T13:00:07+00:00', '2026-11-04'),
+                        '<!DOCTYPE feed>' + xml]:
+            with self.assertRaises((collect.SourceError, ValueError)):
+                collect.youtube_feed(invalid, source)
 
     def test_filter_girls_and_travel_not_everything_by_creator(self):
         self.assertTrue(collect.relevant('A2O LITE NEON', SOURCES[1]))

@@ -8,6 +8,7 @@ import json
 from pathlib import Path
 import re
 import sys
+import xml.etree.ElementTree as ET
 from urllib.parse import urlparse
 from urllib.request import Request, urlopen
 
@@ -117,6 +118,26 @@ def youtube_detail(body, source, remote_id):
     return {'title': clean(detail.get('title')), 'publishedAt': stamp(date).isoformat(), 'description': clean(detail.get('shortDescription', ''))[:2000]}
 
 
+def youtube_feed(body, source):
+    """Read the channel's public Atom metadata, without requesting video playback."""
+    if '<!DOCTYPE' in body.upper() or '<!ENTITY' in body.upper():
+        raise SourceError('Unexpected XML declarations')
+    ns = {'a': 'http://www.w3.org/2005/Atom', 'yt': 'http://www.youtube.com/xml/schemas/2015'}
+    root = ET.fromstring(body)
+    if root.findtext('yt:channelId', namespaces=ns) != source['channelId']:
+        raise SourceError('Atom channel identity mismatch')
+    rows = {}
+    for entry in root.findall('a:entry', ns):
+        remote = entry.findtext('yt:videoId', namespaces=ns) or ''
+        if not re.fullmatch(r'[\w-]{11}', remote) or entry.findtext('yt:channelId', namespaces=ns) != source['channelId']:
+            raise SourceError('Atom video identity mismatch')
+        rows[remote] = {'title': clean(entry.findtext('a:title', namespaces=ns)),
+                        'publishedAt': stamp(entry.findtext('a:published', namespaces=ns) or '').isoformat()}
+    if not rows:
+        raise SourceError('No readable Atom entries')
+    return rows
+
+
 def bilibili_index(body, source):
     data = embedded(body, '__INITIAL_STATE__')
     info = data.get('mediaListInfo', {})
@@ -134,7 +155,8 @@ def bilibili_detail(body, source, remote_id):
     data = embedded(body, '__INITIAL_STATE__')
     video = data.get('videoData', {})
     owner = video.get('owner', {})
-    staff_match = any(p.get('mid') == source['mid'] and p.get('name') == source['account'] for p in data.get('staffData', []))
+    staff = [*data.get('staffData', []), *video.get('staff', [])]
+    staff_match = any(p.get('mid') == source['mid'] and p.get('name') == source['account'] for p in staff)
     if (owner.get('mid') != source['mid'] and not staff_match) or video.get('bvid') != remote_id:
         raise SourceError('Video owner mismatch: ' + json.dumps({'id': video.get('bvid'), 'owner': owner.get('mid'), 'staff': [(p.get('mid'),p.get('name')) for p in data.get('staffData', [])]}, ensure_ascii=False))
     if not video.get('pubdate'):
@@ -197,6 +219,7 @@ def collect_source(source, previous, now, getter=fetch):
     index = youtube_index(body, source) if source['platform'] == 'youtube' else bilibili_index(body, source)
     old = {r['remoteId']: r for r in previous if r.get('sourceId') == source['id']}
     result, failed, inspected = [], [], 0
+    atom, atom_error = None, None
     for candidate in index:
         if not relevant(candidate['title'], source):
             continue
@@ -210,8 +233,23 @@ def collect_source(source, previous, now, getter=fetch):
             else:
                 # B站's public list already embeds the current video's full metadata.
                 current = embedded(body, '__INITIAL_STATE__').get('videoData', {}) if source['platform'] == 'bilibili' else {}
-                page = body if current.get('bvid') == remote_id else getter(url)
-                detail = youtube_detail(page, source, remote_id) if source['platform'] == 'youtube' else bilibili_detail(page, source, remote_id)
+                if source['platform'] == 'youtube':
+                    try:
+                        detail = youtube_detail(getter(url), source, remote_id)
+                    except Exception as original:
+                        # An official metadata feed is an alternative public source, not a
+                        # playback login workaround. Only accept IDs listed by /videos.
+                        if atom is None and atom_error is None:
+                            try:
+                                atom = youtube_feed(getter('https://www.youtube.com/feeds/videos.xml?channel_id=' + source['channelId']), source)
+                            except Exception as error:
+                                atom_error = error
+                        if not atom or remote_id not in atom:
+                            raise SourceError(str(original) + '; public Atom: ' + str(atom_error or 'video not listed'))
+                        detail = atom[remote_id]
+                else:
+                    page = body if current.get('bvid') == remote_id else getter(url)
+                    detail = bilibili_detail(page, source, remote_id)
             if relevant(detail['title'], source, detail.get('description', '')):
                 row = make_item(source, remote_id, detail, now)
                 if row:
