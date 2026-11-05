@@ -19,10 +19,12 @@ Robots directives checked on 2026-10-22: 宠物365 allows the selected query-fre
 
 ## Girl groups and travel creators
 
-`personal/` collects public video-upload metadata from the fixed aespa, A2O WORLD / A2O MAY, Linksphotograph, 杰克小兔 and 小鹿Lawrence accounts. A2O MAY/LITE only; A2O SOUL and non-travel creator uploads are excluded. No Shorts, text/image posts, video downloads, cookies, account logins, API keys or personal records are used.
+`personal/` collects public video-upload metadata from the fixed aespa, A2O WORLD / A2O MAY, Linksphotograph, 杰克小兔 and 小鹿Lawrence accounts. A2O MAY/LITE only; A2O SOUL and non-travel creator uploads are excluded. No Shorts, text/image posts, video downloads, cookies, private account data or personal records are used. YouTube publication metadata is verified with the official read-only Data API using the encrypted Actions secret `YOUTUBE_API_KEY`; the key is restricted to YouTube Data API v3, sent in an HTTP header, and never included in public files or the App. The public `/videos` list bounds candidate IDs so Shorts are not added from the API.
 
 `Refresh Wan personal news` runs on GitHub-hosted Ubuntu daily at **08:30 UTC+8**. It restores the latest committed `public/personal-feed.json`, verifies original publication times and identities, merges and deduplicates, retains up to 180 days / 200 items, then commits public metadata and deploys Pages. Both workflows share the existing publishing concurrency lock and check out the latest main branch.
 
 A failed source retains its last verified items; total failure never replaces the published content. `public/personal-feed-health.json`, the workflow summary and seven-day diagnostics expose failures. A partial failure publishes successful sources but marks the run failed. Scheduled starts can be delayed by GitHub.
 
 App endpoints remain `https://zhudylan12-wq.github.io/wan-news-feed/personal-feed.json` and `https://raw.githubusercontent.com/zhudylan12-wq/wan-news-feed/main/public/personal-feed.json`. No Mac, Codex session or App rebuild is needed for daily refreshes. Run tests with `python3 -m unittest discover -s personal -p "test_*.py" -v`, then `python3 personal/cloud_refresh.py`.
+
+Verified on 2026-11-05: hosted run [41973599106](https://github.com/zhudylan12-wq/wan-news-feed/actions/runs/41973599106) passed, all six sources succeeded, 39 items. Pages and raw endpoints were both HTTP 200 and the released App client loaded the cloud snapshot with `origin=live`. Counts are a dated snapshot. The previous Mac/Codex automation has been paused. Future scheduled starts remain subject to GitHub scheduling.
