@@ -108,7 +108,8 @@ def youtube_detail(body, source, remote_id):
     data = embedded(body, 'ytInitialPlayerResponse')
     detail = data.get('videoDetails', {})
     if detail.get('channelId') != source['channelId'] or detail.get('videoId') != remote_id:
-        raise SourceError('Video owner mismatch')
+        playability = data.get('playabilityStatus', {})
+        raise SourceError('Video owner mismatch: ' + json.dumps({'id': detail.get('videoId'), 'channel': detail.get('channelId'), 'status': playability.get('status'), 'reason': playability.get('reason')}, ensure_ascii=False))
     micro = data.get('microformat', {}).get('playerMicroformatRenderer', {})
     date = micro.get('publishDate') or micro.get('uploadDate')
     if not date:
@@ -135,7 +136,7 @@ def bilibili_detail(body, source, remote_id):
     owner = video.get('owner', {})
     staff_match = any(p.get('mid') == source['mid'] and p.get('name') == source['account'] for p in data.get('staffData', []))
     if (owner.get('mid') != source['mid'] and not staff_match) or video.get('bvid') != remote_id:
-        raise SourceError('Video owner mismatch')
+        raise SourceError('Video owner mismatch: ' + json.dumps({'id': video.get('bvid'), 'owner': owner.get('mid'), 'staff': [(p.get('mid'),p.get('name')) for p in data.get('staffData', [])]}, ensure_ascii=False))
     if not video.get('pubdate'):
         raise SourceError('Missing exact publication date')
     return {'title': clean(video.get('title')), 'publishedAt': stamp(video['pubdate']).isoformat(), 'description': clean(video.get('desc', ''))[:2000], 'originalAccount': clean(owner.get('name')), 'ownerId': owner.get('mid'), 'collaboration': owner.get('mid') != source['mid']}
