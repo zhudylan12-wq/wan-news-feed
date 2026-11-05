@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-05T13:11:40.740145+08:00",
+  "checkedAt": "2026-11-05T14:52:22.372758+08:00",
   "newestPublishedAt": "2026-11-04T09:30:00+08:00",
-  "status": "ok",
+  "status": "partial",
   "sources": [
     {
       "id": "365-wash",
@@ -30,9 +30,8 @@
     },
     {
       "id": "cns-finance",
-      "status": "ok",
-      "count": 0,
-      "failedArticles": 0
+      "status": "error",
+      "detail": "URLError"
     },
     {
       "id": "cns-society",
