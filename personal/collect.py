@@ -5,12 +5,14 @@ import fcntl
 import gzip
 from html import unescape
 import json
+import os
 from pathlib import Path
 import re
 import sys
 import xml.etree.ElementTree as ET
-from urllib.parse import urlparse
-from urllib.request import Request, urlopen
+from urllib.parse import urlparse, urlencode
+from urllib.request import Request, urlopen, build_opener, HTTPRedirectHandler
+from urllib.error import HTTPError
 
 ROOT = Path(__file__).resolve().parent
 TZ = timezone(timedelta(hours=8))
@@ -138,6 +140,43 @@ def youtube_feed(body, source):
     return rows
 
 
+class NoApiRedirect(HTTPRedirectHandler):
+    def redirect_request(self, request, file, code, message, headers, new_url):
+        raise SourceError('YouTube API redirect refused')
+
+
+def youtube_api_details(source, remote_ids, api_key, requester=None):
+    """One read-only official API call; the key stays in a header, never in logs/URLs."""
+    ids = set(remote_ids)
+    if not api_key or not ids or len(ids) > 30 or any(not re.fullmatch(r'[\w-]{11}', value) for value in ids):
+        raise SourceError('Invalid YouTube API configuration')
+    query = urlencode({'part': 'snippet', 'id': ','.join(sorted(ids)),
+                       'fields': 'items(id,snippet(channelId,title,publishedAt))'})
+    request = Request('https://www.googleapis.com/youtube/v3/videos?' + query,
+                      headers={'X-Goog-Api-Key': api_key, 'Accept': 'application/json'})
+    try:
+        with (requester or build_opener(NoApiRedirect()).open)(request, timeout=20) as response:
+            raw = response.read(MAX_BYTES + 1)
+        if len(raw) > MAX_BYTES:
+            raise SourceError('Oversized YouTube API response')
+        data = json.loads(raw)
+    except HTTPError as error:
+        raise SourceError('YouTube Data API returned HTTP ' + str(error.code)) from None
+    except Exception:
+        # Never include request/response objects, which could reveal authentication data.
+        raise SourceError('YouTube Data API request failed') from None
+    rows = {}
+    for item in data.get('items', []):
+        snippet = item.get('snippet', {})
+        if item.get('id') not in ids or snippet.get('channelId') != source['channelId']:
+            raise SourceError('YouTube API video owner mismatch')
+        rows[item['id']] = {'title': clean(snippet.get('title')),
+                            'publishedAt': stamp(snippet.get('publishedAt', '')).isoformat()}
+    if not rows:
+        raise SourceError('No readable YouTube API metadata')
+    return rows
+
+
 def bilibili_index(body, source):
     data = embedded(body, '__INITIAL_STATE__')
     info = data.get('mediaListInfo', {})
@@ -215,11 +254,15 @@ def make_item(source, remote_id, detail, now):
 
 
 def collect_source(source, previous, now, getter=fetch):
+    api_key = os.environ.get('YOUTUBE_API_KEY', '') if source['platform'] == 'youtube' else ''
+    if source['platform'] == 'youtube' and os.environ.get('WAN_REQUIRE_YOUTUBE_API') == '1' and not api_key:
+        raise SourceError('Configure YOUTUBE_API_KEY in repository Actions secrets to enable this source')
     body = getter(source['url'])
     index = youtube_index(body, source) if source['platform'] == 'youtube' else bilibili_index(body, source)
     old = {r['remoteId']: r for r in previous if r.get('sourceId') == source['id']}
     result, failed, inspected = [], [], 0
     atom, atom_error = None, None
+    api_rows = youtube_api_details(source, [r['remoteId'] for r in index], api_key) if api_key else None
     for candidate in index:
         if not relevant(candidate['title'], source):
             continue
@@ -228,7 +271,11 @@ def collect_source(source, previous, now, getter=fetch):
         inspected += 1
         try:
             # Always verify the newest qualifying upload directly; reuse exact dates for older known IDs.
-            if remote_id in old and inspected > 1:
+            if api_rows is not None:
+                if remote_id not in api_rows:
+                    raise SourceError('Listed upload missing from official API metadata')
+                detail = api_rows[remote_id]
+            elif remote_id in old and inspected > 1:
                 detail = {**old[remote_id], 'title': candidate['title'], 'publishedAt': old[remote_id]['publishedAt']}
             else:
                 # B站's public list already embeds the current video's full metadata.

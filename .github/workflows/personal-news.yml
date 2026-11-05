@@ -29,6 +29,9 @@ jobs:
         run: python3 -m unittest discover -s personal -p 'test_*.py' -v
       - name: Fetch official and creator public uploads
         id: collect
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          WAN_REQUIRE_YOUTUBE_API: '1'
         shell: bash
         run: |
           mkdir -p .work/personal-news

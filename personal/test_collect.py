@@ -49,6 +49,28 @@ class CollectorTests(unittest.TestCase):
             with self.assertRaises((collect.SourceError, ValueError)):
                 collect.youtube_feed(invalid, source)
 
+    def test_official_api_checks_owner_and_keeps_key_out_of_urls_and_errors(self):
+        source, secret = SOURCES[0], 'synthetic-private-key'
+        payload = {'items': [{'id': 'WoeDaIg7Xf4', 'snippet': {'channelId': source['channelId'],
+                    'title': 'aespa Concert', 'publishedAt': '2026-11-04T13:00:07Z'}}]}
+        class Response:
+            def __enter__(self): return self
+            def __exit__(self, *args): pass
+            def read(self, limit): return json.dumps(payload).encode()
+        def requester(request, timeout):
+            self.assertNotIn(secret, request.full_url)
+            self.assertEqual(request.get_header('X-goog-api-key'), secret)
+            return Response()
+        rows = collect.youtube_api_details(source, ['WoeDaIg7Xf4'], secret, requester)
+        self.assertEqual(rows['WoeDaIg7Xf4']['publishedAt'], '2026-11-04T21:00:07+08:00')
+        payload['items'][0]['snippet']['channelId'] = 'different-channel'
+        with self.assertRaises(collect.SourceError):
+            collect.youtube_api_details(source, ['WoeDaIg7Xf4'], secret, requester)
+        def fail(request, timeout): raise RuntimeError(secret)
+        with self.assertRaises(collect.SourceError) as error:
+            collect.youtube_api_details(source, ['WoeDaIg7Xf4'], secret, fail)
+        self.assertNotIn(secret, str(error.exception))
+
     def test_filter_girls_and_travel_not_everything_by_creator(self):
         self.assertTrue(collect.relevant('A2O LITE NEON', SOURCES[1]))
         self.assertFalse(collect.relevant('A2O SOUL SUPERSTAR', SOURCES[1]))
