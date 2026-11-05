@@ -16,3 +16,13 @@ Run `python3 -m unittest discover -s tests -v`, then `python3 collect.py`. Pytho
 Robots directives checked on 2026-10-22: 宠物365 allows the selected query-free public news paths; 中国新闻网 allows the selected RSS paths; CIPS robots.txt returned 404. No account/cookie, access-control bypass or anti-bot circumvention is used.
 
 [GitHub schedule documentation](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule) · [中国新闻网 RSS](https://www.chinanews.com.cn/rss/) · [CIPS news](https://www.cipscom.com/ShowNews/index.htm)
+
+## Girl groups and travel creators
+
+`personal/` collects public video-upload metadata from the fixed aespa, A2O WORLD / A2O MAY, Linksphotograph, 杰克小兔 and 小鹿Lawrence accounts. A2O MAY/LITE only; A2O SOUL and non-travel creator uploads are excluded. No Shorts, text/image posts, video downloads, cookies, account logins, API keys or personal records are used.
+
+`Refresh Wan personal news` runs on GitHub-hosted Ubuntu daily at **08:30 UTC+8**. It restores the latest committed `public/personal-feed.json`, verifies original publication times and identities, merges and deduplicates, retains up to 180 days / 200 items, then commits public metadata and deploys Pages. Both workflows share the existing publishing concurrency lock and check out the latest main branch.
+
+A failed source retains its last verified items; total failure never replaces the published content. `public/personal-feed-health.json`, the workflow summary and seven-day diagnostics expose failures. A partial failure publishes successful sources but marks the run failed. Scheduled starts can be delayed by GitHub.
+
+App endpoints remain `https://zhudylan12-wq.github.io/wan-news-feed/personal-feed.json` and `https://raw.githubusercontent.com/zhudylan12-wq/wan-news-feed/main/public/personal-feed.json`. No Mac, Codex session or App rebuild is needed for daily refreshes. Run tests with `python3 -m unittest discover -s personal -p "test_*.py" -v`, then `python3 personal/cloud_refresh.py`.

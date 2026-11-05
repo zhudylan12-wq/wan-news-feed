@@ -1,0 +1,8 @@
+[
+  {"id":"aespa-youtube","platform":"youtube","account":"aespa","channelId":"UC9GtSLeksfK4yuJ_g1lgQbg","url":"https://www.youtube.com/@aespa/videos","artist":"aespa","type":"K-pop","take":8},
+  {"id":"a2o-youtube","platform":"youtube","account":"A2O WORLD","channelId":"UCn-SYb1TUz-1itK_uz4imUA","url":"https://www.youtube.com/@A2OWORLD/videos","artist":"a2o","type":"K-pop","take":8},
+  {"id":"a2o-may-bilibili","platform":"bilibili","account":"A2O_MAY","mid":3707027675154962,"url":"https://www.bilibili.com/list/3707027675154962","artist":"a2o","type":"K-pop","take":6},
+  {"id":"links-bilibili","platform":"bilibili","account":"Linksphotograph","mid":3816626,"url":"https://www.bilibili.com/list/3816626","author":"links","type":"旅行","take":6},
+  {"id":"jack-bilibili","platform":"bilibili","account":"杰克小兔","mid":644255470,"url":"https://www.bilibili.com/list/644255470","author":"jack","type":"旅行","take":6},
+  {"id":"lawrence-bilibili","platform":"bilibili","account":"小鹿Lawrence","mid":37029661,"url":"https://www.bilibili.com/list/37029661","author":"lawrence","type":"旅行","take":6}
+]

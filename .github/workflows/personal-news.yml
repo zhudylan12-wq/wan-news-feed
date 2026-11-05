@@ -1,0 +1,79 @@
+name: Refresh Wan personal news
+on:
+  schedule:
+    - cron: '30 0 * * *' # 08:30 Asia/Singapore and Beijing, daily
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['personal/**', '.github/workflows/personal-news.yml']
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+# Share the existing publisher lock so either feed deploys the latest public directory.
+concurrency:
+  group: wan-news
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Test personal collector and cloud retention
+        run: python3 -m unittest discover -s personal -p 'test_*.py' -v
+      - name: Fetch official and creator public uploads
+        id: collect
+        shell: bash
+        run: |
+          mkdir -p .work/personal-news
+          set +e
+          python3 personal/cloud_refresh.py > .work/personal-news/console.log 2>&1
+          code=$?
+          set -e
+          cat .work/personal-news/console.log
+          echo "exit_code=$code" >> "$GITHUB_OUTPUT"
+          python3 - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json
+          from pathlib import Path
+          path = Path('public/personal-feed-health.json')
+          if path.exists():
+              data = json.loads(path.read_text())
+              print('## Wan personal news refresh')
+              print('Checked:', data.get('checkedAt'), 'Status:', data.get('status'))
+              print('Items:', data.get('itemCount'), 'New:', data.get('addedCount'))
+              for source in data.get('sources', []):
+                  print('-', source['id'], source['status'], 'latest:', source.get('newestPublishedAt', 'retained previous'))
+          PY
+      - name: Save only public metadata and health
+        run: |
+          git config user.name 'wan-news-bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add public/personal-feed.json
+          if [ -f public/personal-feed-health.json ]; then git add public/personal-feed-health.json; fi
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update public personal news snapshot'
+            git push
+          fi
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+      - uses: actions/deploy-pages@v4
+        id: deploy
+      - name: Keep detailed collection diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: personal-news-health
+          path: .work/personal-news/
+          retention-days: 7
+      - name: Report unavailable sources after publishing successful ones
+        if: steps.collect.outputs.exit_code != '0'
+        run: |
+          echo 'One or more sources failed. Available sources were published; unavailable sources retain their last verified items.'
+          exit 1
