@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-05T13:13:32.341408+08:00",
+  "checkedAt": "2026-11-05T13:15:31.160984+08:00",
   "status": "partial",
   "itemCount": 39,
   "addedCount": 0,
@@ -9,7 +9,7 @@
       "id": "aespa-youtube",
       "account": "aespa",
       "status": "partial",
-      "checkedAt": "2026-11-05T13:13:32.341408+08:00",
+      "checkedAt": "2026-11-05T13:15:31.160984+08:00",
       "count": 7,
       "lastSuccessAt": "2026-11-05T12:20:39.211759+08:00",
       "newestId": "youtube-M3ymjPyJS9I",
@@ -19,7 +19,7 @@
       "id": "a2o-youtube",
       "account": "A2O WORLD",
       "status": "partial",
-      "checkedAt": "2026-11-05T13:13:32.341408+08:00",
+      "checkedAt": "2026-11-05T13:15:31.160984+08:00",
       "count": 7,
       "lastSuccessAt": "2026-11-05T12:20:39.211759+08:00",
       "newestId": "youtube-NptPgwtTPfI",
@@ -28,20 +28,20 @@
     {
       "id": "a2o-may-bilibili",
       "account": "A2O_MAY",
-      "status": "partial",
-      "checkedAt": "2026-11-05T13:13:32.341408+08:00",
-      "count": 5,
-      "lastSuccessAt": "2026-11-05T12:20:39.211759+08:00",
-      "newestId": "bili-BV1KHJe6REGE",
-      "newestPublishedAt": "2026-10-17T18:00:00+08:00"
+      "status": "ok",
+      "checkedAt": "2026-11-05T13:15:31.160984+08:00",
+      "count": 6,
+      "lastSuccessAt": "2026-11-05T13:15:31.160984+08:00",
+      "newestId": "bili-BV19jnG6kEWV",
+      "newestPublishedAt": "2026-10-18T18:00:00+08:00"
     },
     {
       "id": "links-bilibili",
       "account": "Linksphotograph",
       "status": "ok",
-      "checkedAt": "2026-11-05T13:13:32.341408+08:00",
+      "checkedAt": "2026-11-05T13:15:31.160984+08:00",
       "count": 4,
-      "lastSuccessAt": "2026-11-05T13:13:32.341408+08:00",
+      "lastSuccessAt": "2026-11-05T13:15:31.160984+08:00",
       "newestId": "bili-BV19naF66Ezb",
       "newestPublishedAt": "2026-09-24T12:00:00+08:00"
     },
@@ -49,9 +49,9 @@
       "id": "jack-bilibili",
       "account": "杰克小兔",
       "status": "ok",
-      "checkedAt": "2026-11-05T13:13:32.341408+08:00",
+      "checkedAt": "2026-11-05T13:15:31.160984+08:00",
       "count": 6,
-      "lastSuccessAt": "2026-11-05T13:13:32.341408+08:00",
+      "lastSuccessAt": "2026-11-05T13:15:31.160984+08:00",
       "newestId": "bili-BV1LNxr63Eoz",
       "newestPublishedAt": "2026-10-31T18:00:00+08:00"
     },
@@ -59,9 +59,9 @@
       "id": "lawrence-bilibili",
       "account": "小鹿Lawrence",
       "status": "ok",
-      "checkedAt": "2026-11-05T13:13:32.341408+08:00",
+      "checkedAt": "2026-11-05T13:15:31.160984+08:00",
       "count": 6,
-      "lastSuccessAt": "2026-11-05T13:13:32.341408+08:00",
+      "lastSuccessAt": "2026-11-05T13:15:31.160984+08:00",
       "newestId": "bili-BV1x9pq63En3",
       "newestPublishedAt": "2026-10-13T20:01:15+08:00"
     }
