@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-06T14:52:24.247865+08:00",
+  "checkedAt": "2026-11-07T03:26:46.660593+08:00",
   "newestPublishedAt": "2026-11-05T00:00:00+08:00",
   "status": "ok",
   "sources": [
@@ -25,7 +25,7 @@
     {
       "id": "cips",
       "status": "ok",
-      "count": 65,
+      "count": 64,
       "failedArticles": 0
     },
     {
@@ -1520,20 +1520,6 @@
       "title": "龙鳞兰寿，三十年匠心铸巅峰 | 2025“长城杯”世界金鱼锦标赛冠军专访",
       "url": "https://www.cipscom.com/ShowNews/25496.htm",
       "publishedAt": "2026-05-12T00:00:00+08:00",
-      "source": "CIPS 官网",
-      "sourceId": "cips",
-      "categories": [
-        "行业动态"
-      ],
-      "kind": "展会动态",
-      "summary": "",
-      "datePrecision": "day"
-    },
-    {
-      "id": "c4b35ead86e4e864f717",
-      "title": "万店赋能中国行 | 山东站即将开启！",
-      "url": "https://www.cipscom.com/ShowNews/25494.htm",
-      "publishedAt": "2026-05-11T00:00:00+08:00",
       "source": "CIPS 官网",
       "sourceId": "cips",
       "categories": [
