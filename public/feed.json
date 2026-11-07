@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-07T14:02:32.613491+08:00",
-  "newestPublishedAt": "2026-11-07T10:44:00+08:00",
+  "checkedAt": "2026-11-08T01:45:19.519227+08:00",
+  "newestPublishedAt": "2026-11-07T16:20:00+08:00",
   "status": "ok",
   "sources": [
     {
@@ -25,7 +25,7 @@
     {
       "id": "cips",
       "status": "ok",
-      "count": 64,
+      "count": 63,
       "failedArticles": 0
     },
     {
@@ -42,6 +42,19 @@
     }
   ],
   "items": [
+    {
+      "id": "0837cd8d2ce81a09eb47",
+      "title": "霸王茶姬西安宠物公益主题店开业 探索公益实践新场景",
+      "url": "https://www.chongwu365.com/news/2611878517.html",
+      "publishedAt": "2026-11-07T16:20:00+08:00",
+      "source": "宠物365",
+      "sourceId": "365-industry",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "媒体资讯",
+      "summary": ""
+    },
     {
       "id": "f3e90be2a2e99bbbb306",
       "title": "冠军宠物食品再赴进博会 以40余年全球积淀，“加”码共赢中国宠业新未来",
@@ -934,6 +947,19 @@
       "summary": ""
     },
     {
+      "id": "e8044d0015cf883e67c1",
+      "title": "妙可蓝多跨界宠物食品赛道，旗下澳爵品牌亮相第28届亚宠展",
+      "url": "https://www.chongwu365.com/news/2608275619.html",
+      "publishedAt": "2026-08-20T21:33:00+08:00",
+      "source": "宠物365",
+      "sourceId": "365-food",
+      "categories": [
+        "营养鲜食"
+      ],
+      "kind": "媒体资讯",
+      "summary": ""
+    },
+    {
       "id": "b3dc4c92b00f9b4d6c65",
       "title": "亚宠展网易严选官宣科学战略新升级，斩获年度畅销食品品牌大奖",
       "url": "https://www.chongwu365.com/news/2608575818.html",
@@ -1519,20 +1545,6 @@
       "title": "万店赋能中国行 | 山东站圆满落幕",
       "url": "https://www.cipscom.com/ShowNews/25501.htm",
       "publishedAt": "2026-05-14T00:00:00+08:00",
-      "source": "CIPS 官网",
-      "sourceId": "cips",
-      "categories": [
-        "行业动态"
-      ],
-      "kind": "展会动态",
-      "summary": "",
-      "datePrecision": "day"
-    },
-    {
-      "id": "0c742fe332cbb9a47743",
-      "title": "龙鳞兰寿，三十年匠心铸巅峰 | 2025“长城杯”世界金鱼锦标赛冠军专访",
-      "url": "https://www.cipscom.com/ShowNews/25496.htm",
-      "publishedAt": "2026-05-12T00:00:00+08:00",
       "source": "CIPS 官网",
       "sourceId": "cips",
       "categories": [
