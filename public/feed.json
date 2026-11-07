@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-07T03:26:46.660593+08:00",
-  "newestPublishedAt": "2026-11-05T00:00:00+08:00",
+  "checkedAt": "2026-11-07T14:02:32.613491+08:00",
+  "newestPublishedAt": "2026-11-07T10:44:00+08:00",
   "status": "ok",
   "sources": [
     {
@@ -42,6 +42,19 @@
     }
   ],
   "items": [
+    {
+      "id": "f3e90be2a2e99bbbb306",
+      "title": "冠军宠物食品再赴进博会 以40余年全球积淀，“加”码共赢中国宠业新未来",
+      "url": "https://www.chongwu365.com/news/2611766825.html",
+      "publishedAt": "2026-11-07T10:44:00+08:00",
+      "source": "宠物365",
+      "sourceId": "365-food",
+      "categories": [
+        "营养鲜食"
+      ],
+      "kind": "媒体资讯",
+      "summary": ""
+    },
     {
       "id": "3baec0c869a6dc2bf733",
       "title": "汇聚宠业目光 | 2026“长城杯”创新奖获奖公示",
