@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-09T14:39:52.840815+08:00",
+  "checkedAt": "2026-11-10T06:24:59.237505+08:00",
   "newestPublishedAt": "2026-11-08T13:10:00+08:00",
   "status": "ok",
   "sources": [
@@ -25,7 +25,7 @@
     {
       "id": "cips",
       "status": "ok",
-      "count": 63,
+      "count": 62,
       "failedArticles": 0
     },
     {
@@ -1544,20 +1544,6 @@
       "title": "官宣 | CIPS正式成为IPC中国区官方合作伙伴，IPC2026报名开启！",
       "url": "https://www.cipscom.com/ShowNews/25503.htm",
       "publishedAt": "2026-05-15T00:00:00+08:00",
-      "source": "CIPS 官网",
-      "sourceId": "cips",
-      "categories": [
-        "行业动态"
-      ],
-      "kind": "展会动态",
-      "summary": "",
-      "datePrecision": "day"
-    },
-    {
-      "id": "ac3fbca60006c84b3938",
-      "title": "万店赋能中国行 | 山东站圆满落幕",
-      "url": "https://www.cipscom.com/ShowNews/25501.htm",
-      "publishedAt": "2026-05-14T00:00:00+08:00",
       "source": "CIPS 官网",
       "sourceId": "cips",
       "categories": [
