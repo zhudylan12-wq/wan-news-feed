@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-10T15:23:29.526763+08:00",
+  "checkedAt": "2026-11-11T03:46:55.471500+08:00",
   "newestPublishedAt": "2026-11-08T13:10:00+08:00",
   "status": "ok",
   "sources": [
@@ -25,7 +25,7 @@
     {
       "id": "cips",
       "status": "ok",
-      "count": 62,
+      "count": 61,
       "failedArticles": 0
     },
     {
@@ -1530,20 +1530,6 @@
       "title": "创新生万象 | 「NEWⁿ」新品展示区报名正式开启",
       "url": "https://www.cipscom.com/ShowNews/25506.htm",
       "publishedAt": "2026-05-19T00:00:00+08:00",
-      "source": "CIPS 官网",
-      "sourceId": "cips",
-      "categories": [
-        "行业动态"
-      ],
-      "kind": "展会动态",
-      "summary": "",
-      "datePrecision": "day"
-    },
-    {
-      "id": "c64b90b2842497ecc93e",
-      "title": "官宣 | CIPS正式成为IPC中国区官方合作伙伴，IPC2026报名开启！",
-      "url": "https://www.cipscom.com/ShowNews/25503.htm",
-      "publishedAt": "2026-05-15T00:00:00+08:00",
       "source": "CIPS 官网",
       "sourceId": "cips",
       "categories": [
