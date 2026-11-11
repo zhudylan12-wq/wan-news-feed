@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-11T03:46:55.471500+08:00",
-  "newestPublishedAt": "2026-11-08T13:10:00+08:00",
+  "checkedAt": "2026-11-11T14:29:35.367067+08:00",
+  "newestPublishedAt": "2026-11-11T11:10:00+08:00",
   "status": "ok",
   "sources": [
     {
@@ -42,6 +42,32 @@
     }
   ],
   "items": [
+    {
+      "id": "111606d28b3db9b374f7",
+      "title": "焕新开园！荆州海洋世界宠物友好公园对外开放",
+      "url": "https://www.chongwu365.com/news/2611968806.html",
+      "publishedAt": "2026-11-11T11:10:00+08:00",
+      "source": "宠物365",
+      "sourceId": "365-industry",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "媒体资讯",
+      "summary": ""
+    },
+    {
+      "id": "fb36495cba0b864d9446",
+      "title": "十周年品牌升级后的首个“双11”：网易严选如何用“科学守护”重构宠物赛道？",
+      "url": "https://www.chongwu365.com/news/2611895729.html",
+      "publishedAt": "2026-11-10T20:50:00+08:00",
+      "source": "宠物365",
+      "sourceId": "365-food",
+      "categories": [
+        "营养鲜食"
+      ],
+      "kind": "媒体资讯",
+      "summary": ""
+    },
     {
       "id": "4a1352b7bc5d6dbef8b7",
       "title": "勃林格殷格翰加码投资泰州 超亿元扩建动物保健业务基地",
