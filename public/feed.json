@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-14T14:29:50.836647+08:00",
+  "checkedAt": "2026-11-15T02:08:10.464347+08:00",
   "newestPublishedAt": "2026-11-11T11:10:00+08:00",
   "status": "ok",
   "sources": [
@@ -25,7 +25,7 @@
     {
       "id": "cips",
       "status": "ok",
-      "count": 61,
+      "count": 60,
       "failedArticles": 0
     },
     {
@@ -1542,20 +1542,6 @@
       "title": "海外买家邀约挑战赛开启 | 住宿、新品展示与展位折扣等福利等您解锁！",
       "url": "https://www.cipscom.com/ShowNews/25528.htm",
       "publishedAt": "2026-05-25T00:00:00+08:00",
-      "source": "CIPS 官网",
-      "sourceId": "cips",
-      "categories": [
-        "行业动态"
-      ],
-      "kind": "展会动态",
-      "summary": "",
-      "datePrecision": "day"
-    },
-    {
-      "id": "78d6da83fd10af0ab0a1",
-      "title": "创新生万象 | 「NEWⁿ」新品展示区报名正式开启",
-      "url": "https://www.cipscom.com/ShowNews/25506.htm",
-      "publishedAt": "2026-05-19T00:00:00+08:00",
       "source": "CIPS 官网",
       "sourceId": "cips",
       "categories": [
