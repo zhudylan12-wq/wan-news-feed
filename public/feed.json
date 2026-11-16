@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-16T14:35:29.706158+08:00",
-  "newestPublishedAt": "2026-11-15T18:31:00+08:00",
+  "checkedAt": "2026-11-17T06:08:38.117991+08:00",
+  "newestPublishedAt": "2026-11-16T21:27:13+08:00",
   "status": "ok",
   "sources": [
     {
@@ -31,7 +31,7 @@
     {
       "id": "cns-finance",
       "status": "ok",
-      "count": 0,
+      "count": 1,
       "failedArticles": 0
     },
     {
@@ -42,6 +42,32 @@
     }
   ],
   "items": [
+    {
+      "id": "90a84dbe0c0bfb55fcf8",
+      "title": "宠物消费市场稳步扩容 专家共话规范产业发展新路径",
+      "url": "https://www.chinanews.com.cn/cj/2026/11-16/10733089.shtml",
+      "publishedAt": "2026-11-16T21:27:13+08:00",
+      "source": "中国新闻网",
+      "sourceId": "cns-finance",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "媒体资讯",
+      "summary": ""
+    },
+    {
+      "id": "a4074c0b59f6129a5c24",
+      "title": "中君亚泰旗下爱宠君乐萌全资收购PETSHY",
+      "url": "https://www.chongwu365.com/news/2611889925.html",
+      "publishedAt": "2026-11-16T20:13:00+08:00",
+      "source": "宠物365",
+      "sourceId": "365-industry",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "媒体资讯",
+      "summary": ""
+    },
     {
       "id": "e425741371336719016f",
       "title": "天猫宠物&淘宝宠物发布双11全周期全品类战报",
