@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-16T02:53:41.603365+08:00",
-  "newestPublishedAt": "2026-11-11T11:10:00+08:00",
+  "checkedAt": "2026-11-16T14:35:29.706158+08:00",
+  "newestPublishedAt": "2026-11-15T18:31:00+08:00",
   "status": "ok",
   "sources": [
     {
       "id": "365-wash",
       "status": "ok",
-      "count": 7,
+      "count": 8,
       "failedArticles": 0
     },
     {
@@ -19,7 +19,7 @@
     {
       "id": "365-industry",
       "status": "ok",
-      "count": 15,
+      "count": 14,
       "failedArticles": 0
     },
     {
@@ -42,6 +42,21 @@
     }
   ],
   "items": [
+    {
+      "id": "e425741371336719016f",
+      "title": "天猫宠物&淘宝宠物发布双11全周期全品类战报",
+      "url": "https://www.chongwu365.com/news/2611567929.html",
+      "publishedAt": "2026-11-15T18:31:00+08:00",
+      "source": "宠物365",
+      "sourceId": "365-industry",
+      "categories": [
+        "宠物洗美",
+        "营养鲜食",
+        "行业动态"
+      ],
+      "kind": "媒体资讯",
+      "summary": ""
+    },
     {
       "id": "111606d28b3db9b374f7",
       "title": "焕新开园！荆州海洋世界宠物友好公园对外开放",
