@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-17T06:08:38.117991+08:00",
+  "checkedAt": "2026-11-17T15:58:24.993891+08:00",
   "newestPublishedAt": "2026-11-16T21:27:13+08:00",
   "status": "ok",
   "sources": [
@@ -31,7 +31,7 @@
     {
       "id": "cns-finance",
       "status": "ok",
-      "count": 1,
+      "count": 0,
       "failedArticles": 0
     },
     {
