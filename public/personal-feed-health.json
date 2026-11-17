@@ -1,27 +1,27 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-16T15:00:43.284719+08:00",
+  "checkedAt": "2026-11-17T16:15:12.035808+08:00",
   "status": "ok",
-  "itemCount": 47,
-  "addedCount": 0,
+  "itemCount": 49,
+  "addedCount": 2,
   "sources": [
     {
       "id": "aespa-youtube",
       "account": "aespa",
       "status": "ok",
-      "checkedAt": "2026-11-16T15:00:43.284719+08:00",
+      "checkedAt": "2026-11-17T16:15:12.035808+08:00",
       "count": 8,
-      "lastSuccessAt": "2026-11-16T15:00:43.284719+08:00",
-      "newestId": "youtube-rr39g9rl4ZU",
-      "newestPublishedAt": "2026-11-13T21:00:11+08:00"
+      "lastSuccessAt": "2026-11-17T16:15:12.035808+08:00",
+      "newestId": "youtube-4oAA6esif9E",
+      "newestPublishedAt": "2026-11-16T21:00:11+08:00"
     },
     {
       "id": "a2o-youtube",
       "account": "A2O WORLD",
       "status": "ok",
-      "checkedAt": "2026-11-16T15:00:43.284719+08:00",
+      "checkedAt": "2026-11-17T16:15:12.035808+08:00",
       "count": 8,
-      "lastSuccessAt": "2026-11-16T15:00:43.284719+08:00",
+      "lastSuccessAt": "2026-11-17T16:15:12.035808+08:00",
       "newestId": "youtube-G_ej20-QWng",
       "newestPublishedAt": "2026-11-13T17:00:36+08:00"
     },
@@ -29,19 +29,19 @@
       "id": "a2o-may-bilibili",
       "account": "A2O_MAY",
       "status": "ok",
-      "checkedAt": "2026-11-16T15:00:43.284719+08:00",
+      "checkedAt": "2026-11-17T16:15:12.035808+08:00",
       "count": 6,
-      "lastSuccessAt": "2026-11-16T15:00:43.284719+08:00",
-      "newestId": "bili-BV1fAWJ6LEzf",
-      "newestPublishedAt": "2026-11-08T20:12:14+08:00"
+      "lastSuccessAt": "2026-11-17T16:15:12.035808+08:00",
+      "newestId": "bili-BV1Q9sc6HE3m",
+      "newestPublishedAt": "2026-11-16T18:00:00+08:00"
     },
     {
       "id": "links-bilibili",
       "account": "Linksphotograph",
       "status": "ok",
-      "checkedAt": "2026-11-16T15:00:43.284719+08:00",
+      "checkedAt": "2026-11-17T16:15:12.035808+08:00",
       "count": 4,
-      "lastSuccessAt": "2026-11-16T15:00:43.284719+08:00",
+      "lastSuccessAt": "2026-11-17T16:15:12.035808+08:00",
       "newestId": "bili-BV19naF66Ezb",
       "newestPublishedAt": "2026-09-24T12:00:00+08:00"
     },
@@ -49,9 +49,9 @@
       "id": "jack-bilibili",
       "account": "杰克小兔",
       "status": "ok",
-      "checkedAt": "2026-11-16T15:00:43.284719+08:00",
+      "checkedAt": "2026-11-17T16:15:12.035808+08:00",
       "count": 4,
-      "lastSuccessAt": "2026-11-16T15:00:43.284719+08:00",
+      "lastSuccessAt": "2026-11-17T16:15:12.035808+08:00",
       "newestId": "bili-BV1LNxr63Eoz",
       "newestPublishedAt": "2026-10-31T18:00:00+08:00"
     },
@@ -59,9 +59,9 @@
       "id": "lawrence-bilibili",
       "account": "小鹿Lawrence",
       "status": "ok",
-      "checkedAt": "2026-11-16T15:00:43.284719+08:00",
+      "checkedAt": "2026-11-17T16:15:12.035808+08:00",
       "count": 6,
-      "lastSuccessAt": "2026-11-16T15:00:43.284719+08:00",
+      "lastSuccessAt": "2026-11-17T16:15:12.035808+08:00",
       "newestId": "bili-BV1x9pq63En3",
       "newestPublishedAt": "2026-10-13T20:01:15+08:00"
     }
