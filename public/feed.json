@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-18T04:58:13.010936+08:00",
-  "newestPublishedAt": "2026-11-16T21:27:13+08:00",
+  "checkedAt": "2026-11-18T15:33:36.140337+08:00",
+  "newestPublishedAt": "2026-11-18T11:31:00+08:00",
   "status": "ok",
   "sources": [
     {
@@ -42,6 +42,20 @@
     }
   ],
   "items": [
+    {
+      "id": "1a5f14d6c27f88a991bc",
+      "title": "产研共融·质创未来 首届宠物食品高标准共建与产研创新大会在浙江举行",
+      "url": "https://www.chongwu365.com/news/2611675725.html",
+      "publishedAt": "2026-11-18T11:31:00+08:00",
+      "source": "宠物365",
+      "sourceId": "365-industry",
+      "categories": [
+        "营养鲜食",
+        "行业动态"
+      ],
+      "kind": "媒体资讯",
+      "summary": ""
+    },
     {
       "id": "90a84dbe0c0bfb55fcf8",
       "title": "宠物消费市场稳步扩容 专家共话规范产业发展新路径",
