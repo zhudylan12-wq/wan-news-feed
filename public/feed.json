@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-18T15:33:36.140337+08:00",
+  "checkedAt": "2026-11-19T04:35:43.307709+08:00",
   "newestPublishedAt": "2026-11-18T11:31:00+08:00",
   "status": "ok",
   "sources": [
@@ -25,7 +25,7 @@
     {
       "id": "cips",
       "status": "ok",
-      "count": 60,
+      "count": 61,
       "failedArticles": 0
     },
     {
@@ -55,6 +55,20 @@
       ],
       "kind": "媒体资讯",
       "summary": ""
+    },
+    {
+      "id": "d13f6d72eb1f6e6b768e",
+      "title": "三十载同行，一启新程 | 第30届长城宠物展圆满闭幕！",
+      "url": "https://www.cipscom.com/ShowNews/25735.htm",
+      "publishedAt": "2026-11-18T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
     },
     {
       "id": "90a84dbe0c0bfb55fcf8",
