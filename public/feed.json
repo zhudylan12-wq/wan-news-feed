@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-23T15:44:14.922268+08:00",
-  "newestPublishedAt": "2026-11-23T10:19:00+08:00",
+  "checkedAt": "2026-11-24T07:56:44.759573+08:00",
+  "newestPublishedAt": "2026-11-23T18:11:00+08:00",
   "status": "ok",
   "sources": [
     {
@@ -25,7 +25,7 @@
     {
       "id": "cips",
       "status": "ok",
-      "count": 60,
+      "count": 59,
       "failedArticles": 0
     },
     {
@@ -43,6 +43,20 @@
   ],
   "items": [
     {
+      "id": "29258f301f1bfef6ad57",
+      "title": "江淮六地市，一条产业链：安徽宠物食品产业园区格局观察",
+      "url": "https://www.chongwu365.com/news/2611966726.html",
+      "publishedAt": "2026-11-23T18:11:00+08:00",
+      "source": "宠物365",
+      "sourceId": "365-industry",
+      "categories": [
+        "营养鲜食",
+        "行业动态"
+      ],
+      "kind": "媒体资讯",
+      "summary": ""
+    },
+    {
       "id": "a91c40244ccb6f3fcdda",
       "title": "宠物食品系列指数发布 以数据标尺丈量产业进阶",
       "url": "https://www.chongwu365.com/news/2611599526.html",
@@ -55,6 +69,21 @@
       ],
       "kind": "媒体资讯",
       "summary": ""
+    },
+    {
+      "id": "bcf15825b427748127c6",
+      "title": "从中国主场到世界舞台：CGGC长城世界宠物美容大会八年，十二国及地区代表队同台，强势跻身全球宠美大赛第一梯队",
+      "url": "https://www.cipscom.com/ShowNews/25739.htm",
+      "publishedAt": "2026-11-23T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "宠物洗美",
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
     },
     {
       "id": "13efc9bf890bff0bb98a",
@@ -1597,34 +1626,6 @@
       "title": "三色青鳉，匠心笃行造极致风华 | 2025“长城杯”世界观背青鳉锦标赛冠军专访",
       "url": "https://www.cipscom.com/ShowNews/25551.htm",
       "publishedAt": "2026-05-29T00:00:00+08:00",
-      "source": "CIPS 官网",
-      "sourceId": "cips",
-      "categories": [
-        "行业动态"
-      ],
-      "kind": "展会动态",
-      "summary": "",
-      "datePrecision": "day"
-    },
-    {
-      "id": "8905965405459189dae7",
-      "title": "Interzoo 2026 现场 | 全球采购风向变化，中国宠物供应链如何作答？",
-      "url": "https://www.cipscom.com/ShowNews/25550.htm",
-      "publishedAt": "2026-05-28T00:00:00+08:00",
-      "source": "CIPS 官网",
-      "sourceId": "cips",
-      "categories": [
-        "行业动态"
-      ],
-      "kind": "展会动态",
-      "summary": "",
-      "datePrecision": "day"
-    },
-    {
-      "id": "698aa81399a0df06d3dd",
-      "title": "第二届CIPS国际宠业大会 | 共生共荣，共探宠业新未来",
-      "url": "https://www.cipscom.com/ShowNews/25548.htm",
-      "publishedAt": "2026-05-28T00:00:00+08:00",
       "source": "CIPS 官网",
       "sourceId": "cips",
       "categories": [
