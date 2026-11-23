@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-23T03:44:29.349251+08:00",
-  "newestPublishedAt": "2026-11-20T00:00:00+08:00",
+  "checkedAt": "2026-11-23T15:44:14.922268+08:00",
+  "newestPublishedAt": "2026-11-23T10:19:00+08:00",
   "status": "ok",
   "sources": [
     {
@@ -42,6 +42,20 @@
     }
   ],
   "items": [
+    {
+      "id": "a91c40244ccb6f3fcdda",
+      "title": "宠物食品系列指数发布 以数据标尺丈量产业进阶",
+      "url": "https://www.chongwu365.com/news/2611599526.html",
+      "publishedAt": "2026-11-23T10:19:00+08:00",
+      "source": "宠物365",
+      "sourceId": "365-industry",
+      "categories": [
+        "营养鲜食",
+        "行业动态"
+      ],
+      "kind": "媒体资讯",
+      "summary": ""
+    },
     {
       "id": "13efc9bf890bff0bb98a",
       "title": "增长之外，看见产业未来 | CIPIC 2026汇聚全球宠业智慧，共探下一轮发展机遇",
