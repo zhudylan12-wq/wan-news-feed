@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-24T07:56:44.759573+08:00",
-  "newestPublishedAt": "2026-11-23T18:11:00+08:00",
+  "checkedAt": "2026-11-24T17:57:46.085135+08:00",
+  "newestPublishedAt": "2026-11-24T00:00:00+08:00",
   "status": "ok",
   "sources": [
     {
@@ -25,7 +25,7 @@
     {
       "id": "cips",
       "status": "ok",
-      "count": 59,
+      "count": 60,
       "failedArticles": 0
     },
     {
@@ -42,6 +42,20 @@
     }
   ],
   "items": [
+    {
+      "id": "53be301dc0ab03d28924",
+      "title": "流量见顶怎么破？从私域复利到出海破局，这6场干货硬核拆解第二增长曲线",
+      "url": "https://www.cipscom.com/ShowNews/25741.htm",
+      "publishedAt": "2026-11-24T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
     {
       "id": "29258f301f1bfef6ad57",
       "title": "江淮六地市，一条产业链：安徽宠物食品产业园区格局观察",
