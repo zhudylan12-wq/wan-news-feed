@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-26T05:44:38.825470+08:00",
-  "newestPublishedAt": "2026-11-25T00:00:00+08:00",
+  "checkedAt": "2026-11-26T16:25:10.373011+08:00",
+  "newestPublishedAt": "2026-11-26T00:00:00+08:00",
   "status": "ok",
   "sources": [
     {
@@ -25,7 +25,7 @@
     {
       "id": "cips",
       "status": "ok",
-      "count": 60,
+      "count": 61,
       "failedArticles": 0
     },
     {
@@ -42,6 +42,20 @@
     }
   ],
   "items": [
+    {
+      "id": "6dbcf4da2b3ff2715569",
+      "title": "创新生万象 | CIPS 2026「NEWⁿ」新品展示区与“长城杯”创新奖全景回顾",
+      "url": "https://www.cipscom.com/ShowNews/25747.htm",
+      "publishedAt": "2026-11-26T00:00:00+08:00",
+      "source": "CIPS 官网",
+      "sourceId": "cips",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "展会动态",
+      "summary": "",
+      "datePrecision": "day"
+    },
     {
       "id": "f8cd74276e10b9fdb5ec",
       "title": "3126亿宠物市场，私域怎么把“过路客”变成“十年老客”？",
