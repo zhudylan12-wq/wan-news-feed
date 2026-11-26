@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-26T16:25:10.373011+08:00",
-  "newestPublishedAt": "2026-11-26T00:00:00+08:00",
+  "checkedAt": "2026-11-27T05:37:42.616032+08:00",
+  "newestPublishedAt": "2026-11-26T16:28:00+08:00",
   "status": "ok",
   "sources": [
     {
@@ -42,6 +42,19 @@
     }
   ],
   "items": [
+    {
+      "id": "7cb88ed8d8f780d643e2",
+      "title": "蕉内「绒绒 Cares 计划 3.0」让温暖持续流转，守护动物不流浪",
+      "url": "https://www.chongwu365.com/news/2611666525.html",
+      "publishedAt": "2026-11-26T16:28:00+08:00",
+      "source": "宠物365",
+      "sourceId": "365-industry",
+      "categories": [
+        "行业动态"
+      ],
+      "kind": "媒体资讯",
+      "summary": ""
+    },
     {
       "id": "6dbcf4da2b3ff2715569",
       "title": "创新生万象 | CIPS 2026「NEWⁿ」新品展示区与“长城杯”创新奖全景回顾",
