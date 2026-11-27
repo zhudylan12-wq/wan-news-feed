@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-27T16:39:43.305457+08:00",
+  "checkedAt": "2026-11-28T05:21:08.229305+08:00",
   "newestPublishedAt": "2026-11-27T00:00:00+08:00",
   "status": "ok",
   "sources": [
@@ -25,7 +25,7 @@
     {
       "id": "cips",
       "status": "ok",
-      "count": 62,
+      "count": 61,
       "failedArticles": 0
     },
     {
@@ -1667,20 +1667,6 @@
       "title": "创新生万象 | “长城杯”创新奖报名开启！",
       "url": "https://www.cipscom.com/ShowNews/25565.htm",
       "publishedAt": "2026-06-02T00:00:00+08:00",
-      "source": "CIPS 官网",
-      "sourceId": "cips",
-      "categories": [
-        "行业动态"
-      ],
-      "kind": "展会动态",
-      "summary": "",
-      "datePrecision": "day"
-    },
-    {
-      "id": "5c26267ffc2fe3155c6e",
-      "title": "当“天狗食月”登上屋顶：一块汉代瓦当，藏着古人最硬核的“护宠”宣言？",
-      "url": "https://www.cipscom.com/ShowNews/25564.htm",
-      "publishedAt": "2026-06-01T00:00:00+08:00",
       "source": "CIPS 官网",
       "sourceId": "cips",
       "categories": [
